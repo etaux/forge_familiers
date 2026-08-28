@@ -1,0 +1,2820 @@
+[
+  {
+    "id": "mousselet",
+    "name": "MOUSSELET",
+    "title": "Esprit des sous-bois",
+    "rarity": "common",
+    "art": "res://assets/art/mousselet.png",
+    "lore": "Il fait pousser une fleur partout où il s’endort.",
+    "number": "001"
+  },
+  {
+    "id": "bouliflore",
+    "name": "BOULIFLORE",
+    "title": "Jardinier des clairières",
+    "rarity": "common",
+    "art": "res://assets/art/common/bouliflore.webp",
+    "lore": "Il sème des fleurs en roulant dans l’herbe.",
+    "number": "006"
+  },
+  {
+    "id": "braisillon",
+    "name": "BRAISILLON",
+    "title": "Renardeau des braises",
+    "rarity": "common",
+    "art": "res://assets/art/common/braisillon.webp",
+    "lore": "Sa queue reste tiède même sous la pluie.",
+    "number": "007"
+  },
+  {
+    "id": "goutillon",
+    "name": "GOUTILLON",
+    "title": "Perle des ruisseaux",
+    "rarity": "common",
+    "art": "res://assets/art/common/goutillon.webp",
+    "lore": "Il collectionne les gouttes parfaitement rondes.",
+    "number": "008"
+  },
+  {
+    "id": "galetou",
+    "name": "GALETOU",
+    "title": "Tortue des galets",
+    "rarity": "common",
+    "art": "res://assets/art/common/galetou.webp",
+    "lore": "Sa carapace devient plus lisse à chaque voyage.",
+    "number": "009"
+  },
+  {
+    "id": "plumousse",
+    "name": "PLUMOUSSE",
+    "title": "Veilleur des branches",
+    "rarity": "common",
+    "art": "res://assets/art/common/plumousse.webp",
+    "lore": "Il dort debout pour ne jamais rater l’aube.",
+    "number": "010"
+  },
+  {
+    "id": "luminou",
+    "name": "LUMINOU",
+    "title": "Lapin-lanterne",
+    "rarity": "common",
+    "art": "res://assets/art/common/luminou.webp",
+    "lore": "Les lucioles aiment voyager accrochées à sa queue.",
+    "number": "011"
+  },
+  {
+    "id": "chataignouf",
+    "name": "CHÂTAIGNOUF",
+    "title": "Piquant d’automne",
+    "rarity": "common",
+    "art": "res://assets/art/common/chataignouf.webp",
+    "lore": "Il se cache sous les feuilles dès qu’il éternue.",
+    "number": "012"
+  },
+  {
+    "id": "patafleur",
+    "name": "PATAFLEUR",
+    "title": "Grenouille des jardins",
+    "rarity": "common",
+    "art": "res://assets/art/common/patafleur.webp",
+    "lore": "Une marguerite fleurit lorsqu’elle bondit très haut.",
+    "number": "013"
+  },
+  {
+    "id": "sablon",
+    "name": "SABLON",
+    "title": "Fennec des dunes",
+    "rarity": "common",
+    "art": "res://assets/art/common/sablon.webp",
+    "lore": "Ses grandes oreilles entendent glisser chaque grain.",
+    "number": "014"
+  },
+  {
+    "id": "gribulbe",
+    "name": "GRIBULBE",
+    "title": "Taupe aux champignons",
+    "rarity": "common",
+    "art": "res://assets/art/common/gribulbe.webp",
+    "lore": "Il connaît tous les tunnels sous la vieille forêt.",
+    "number": "015"
+  },
+  {
+    "id": "pollenko",
+    "name": "POLLENKO",
+    "title": "Gecko pollinisateur",
+    "rarity": "common",
+    "art": "res://assets/art/common/pollenko.webp",
+    "lore": "Ses petites ailes bourdonnent près des tournesols.",
+    "number": "016"
+  },
+  {
+    "id": "roselune",
+    "name": "ROSELUNE",
+    "title": "Papillon du crépuscule",
+    "rarity": "common",
+    "art": "res://assets/art/common/roselune.webp",
+    "lore": "Ses ailes ne s’ouvrent qu’au premier croissant.",
+    "number": "017"
+  },
+  {
+    "id": "moussecroc",
+    "name": "MOUSSECROC",
+    "title": "Gardien du marais",
+    "rarity": "common",
+    "art": "res://assets/art/common/moussecroc.webp",
+    "lore": "Une fougère pousse sur son dos depuis sa naissance.",
+    "number": "018"
+  },
+  {
+    "id": "floconin",
+    "name": "FLOCONIN",
+    "title": "Lièvre des premières neiges",
+    "rarity": "common",
+    "art": "res://assets/art/common/floconin.webp",
+    "lore": "Il laisse derrière lui de minuscules flocons ronds.",
+    "number": "019"
+  },
+  {
+    "id": "coquillou",
+    "name": "COQUILLOU",
+    "title": "Marcheur des marées",
+    "rarity": "common",
+    "art": "res://assets/art/common/coquillou.webp",
+    "lore": "Il change de coquille à chaque nouvelle lune.",
+    "number": "020"
+  },
+  {
+    "id": "bamboupi",
+    "name": "BAMBOUPI",
+    "title": "Grignoteur de bambou",
+    "rarity": "common",
+    "art": "res://assets/art/common/bamboupi.webp",
+    "lore": "Il peut reconnaître cent pousses rien qu’à l’odeur.",
+    "number": "021"
+  },
+  {
+    "id": "nenupatte",
+    "name": "NÉNUPATTE",
+    "title": "Loutre aux nénuphars",
+    "rarity": "common",
+    "art": "res://assets/art/common/nenupatte.webp",
+    "lore": "Elle utilise une feuille comme petit parapluie.",
+    "number": "022"
+  },
+  {
+    "id": "tourbichon",
+    "name": "TOURBICHON",
+    "title": "Furet des courants d’air",
+    "rarity": "common",
+    "art": "res://assets/art/common/tourbichon.webp",
+    "lore": "Il poursuit les feuilles que le vent a oubliées.",
+    "number": "023"
+  },
+  {
+    "id": "cactipic",
+    "name": "CACTIPIC",
+    "title": "Porc-épic du désert",
+    "rarity": "common",
+    "art": "res://assets/art/common/cactipic.webp",
+    "lore": "Ses épines stockent juste assez d’eau pour une journée.",
+    "number": "024"
+  },
+  {
+    "id": "lucioleau",
+    "name": "LUCIOLEAU",
+    "title": "Faon des lumières",
+    "rarity": "common",
+    "art": "res://assets/art/common/lucioleau.webp",
+    "lore": "Ses taches s’allument quand ses amis sont proches.",
+    "number": "025"
+  },
+  {
+    "id": "pomponuit",
+    "name": "POMPONUIT",
+    "title": "Chaton du soir",
+    "rarity": "common",
+    "art": "res://assets/art/common/pomponuit.webp",
+    "lore": "Il se fond dans l’ombre, sauf le bout blanc de sa queue.",
+    "number": "026"
+  },
+  {
+    "id": "racinou",
+    "name": "RACINOU",
+    "title": "Marcassin des racines",
+    "rarity": "common",
+    "art": "res://assets/art/common/racinou.webp",
+    "lore": "Son groin retrouve toujours les graines bien cachées.",
+    "number": "027"
+  },
+  {
+    "id": "brumelin",
+    "name": "BRUMELIN",
+    "title": "Alpaga des brumes",
+    "rarity": "common",
+    "art": "res://assets/art/common/brumelin.webp",
+    "lore": "Sa laine absorbe la rosée du petit matin.",
+    "number": "028"
+  },
+  {
+    "id": "mineralot",
+    "name": "MINÉRALOT",
+    "title": "Scarabée des pierres",
+    "rarity": "common",
+    "art": "res://assets/art/common/mineralot.webp",
+    "lore": "Il polit les cailloux jusqu’à les faire miroiter.",
+    "number": "029"
+  },
+  {
+    "id": "nuagelin",
+    "name": "NUAGELIN",
+    "title": "Mouton des collines",
+    "rarity": "common",
+    "art": "res://assets/art/common/nuagelin.webp",
+    "lore": "Sa laine gonfle juste avant une averse légère.",
+    "number": "030"
+  },
+  {
+    "id": "etincette",
+    "name": "ÉTINCETTE",
+    "title": "Écureuil électrique",
+    "rarity": "common",
+    "art": "res://assets/art/common/etincette.webp",
+    "lore": "Une petite étincelle jaillit quand il casse une noix.",
+    "number": "031"
+  },
+  {
+    "id": "cornibulle",
+    "name": "CORNIBULLE",
+    "title": "Chevreau des bulles",
+    "rarity": "common",
+    "art": "res://assets/art/common/cornibulle.webp",
+    "lore": "Ses cornes font apparaître des bulles au goût de menthe.",
+    "number": "032"
+  },
+  {
+    "id": "glandou",
+    "name": "GLANDOU",
+    "title": "Oisillon des chênes",
+    "rarity": "common",
+    "art": "res://assets/art/common/glandou.webp",
+    "lore": "Il porte toujours un gland beaucoup trop grand pour lui.",
+    "number": "033"
+  },
+  {
+    "id": "aqualin",
+    "name": "AQUALIN",
+    "title": "Poisson des sources",
+    "rarity": "common",
+    "art": "res://assets/art/common/aqualin.webp",
+    "lore": "Il remonte les rivières pour saluer la pluie.",
+    "number": "034"
+  },
+  {
+    "id": "rocoton",
+    "name": "ROCOTON",
+    "title": "Petit golem poli",
+    "rarity": "common",
+    "art": "res://assets/art/common/rocoton.webp",
+    "lore": "Il empile les galets pour fabriquer des amis.",
+    "number": "035"
+  },
+  {
+    "id": "feuillours",
+    "name": "FEUILLOURS",
+    "title": "Ourson des feuillages",
+    "rarity": "common",
+    "art": "res://assets/art/common/feuillours.webp",
+    "lore": "Il hiberne sous un tas de feuilles parfumées.",
+    "number": "036"
+  },
+  {
+    "id": "sucrolimace",
+    "name": "SUCROLIMACE",
+    "title": "Limace confisée",
+    "rarity": "common",
+    "art": "res://assets/art/common/sucrolimace.webp",
+    "lore": "Sa trace sent la fraise mais ne colle jamais.",
+    "number": "037"
+  },
+  {
+    "id": "ondinette",
+    "name": "ONDINETTE",
+    "title": "Hippocampe des étangs",
+    "rarity": "common",
+    "art": "res://assets/art/common/ondinette.webp",
+    "lore": "Elle danse en cercle quand l’eau devient calme.",
+    "number": "038"
+  },
+  {
+    "id": "lianou",
+    "name": "LIANOU",
+    "title": "Lémurien des lianes",
+    "rarity": "common",
+    "art": "res://assets/art/common/lianou.webp",
+    "lore": "Sa queue s’enroule autour des branches pendant son sommeil.",
+    "number": "039"
+  },
+  {
+    "id": "pyroux",
+    "name": "PYROUX",
+    "title": "Raton des foyers",
+    "rarity": "common",
+    "art": "res://assets/art/common/pyroux.webp",
+    "lore": "Il garde une braise dans une petite poche de fourrure.",
+    "number": "040"
+  },
+  {
+    "id": "duvetis",
+    "name": "DUVETIS",
+    "title": "Poussin des frimas",
+    "rarity": "common",
+    "art": "res://assets/art/common/duvetis.webp",
+    "lore": "Son duvet reste chaud au milieu des congères.",
+    "number": "041"
+  },
+  {
+    "id": "croquenoix",
+    "name": "CROQUENOIX",
+    "title": "Maître des noisettes",
+    "rarity": "common",
+    "art": "res://assets/art/common/croquenoix.webp",
+    "lore": "Il classe ses réserves de la plus ronde à la plus petite.",
+    "number": "042"
+  },
+  {
+    "id": "craplume",
+    "name": "CRAPLUME",
+    "title": "Crapaud à plumes",
+    "rarity": "common",
+    "art": "res://assets/art/common/craplume.webp",
+    "lore": "Il préfère planer quelques secondes plutôt que nager.",
+    "number": "043"
+  },
+  {
+    "id": "tetardis",
+    "name": "TÊTARDIS",
+    "title": "Têtard voyageur",
+    "rarity": "common",
+    "art": "res://assets/art/common/tetardis.webp",
+    "lore": "Il transporte une bulle d’air comme un petit sac.",
+    "number": "044"
+  },
+  {
+    "id": "charbonnet",
+    "name": "CHARBONNET",
+    "title": "Chaton de suie",
+    "rarity": "common",
+    "art": "res://assets/art/common/charbonnet.webp",
+    "lore": "Ses empreintes noires disparaissent au premier rayon.",
+    "number": "045"
+  },
+  {
+    "id": "mielours",
+    "name": "MIELOURS",
+    "title": "Ourson des ruches",
+    "rarity": "common",
+    "art": "res://assets/art/common/mielours.webp",
+    "lore": "Les abeilles lui confient les pots trop lourds.",
+    "number": "046"
+  },
+  {
+    "id": "orageon",
+    "name": "ORAGEON",
+    "title": "Oiseau des averses",
+    "rarity": "common",
+    "art": "res://assets/art/common/orageon.webp",
+    "lore": "Il annonce l’orage avec trois petits sifflements.",
+    "number": "047"
+  },
+  {
+    "id": "trocoton",
+    "name": "TROCOTON",
+    "title": "Souris des pelotes",
+    "rarity": "common",
+    "art": "res://assets/art/common/trocoton.webp",
+    "lore": "Elle répare les nids avec des fils abandonnés.",
+    "number": "048"
+  },
+  {
+    "id": "luminargot",
+    "name": "LUMINARGOT",
+    "title": "Escargot-lanterne",
+    "rarity": "common",
+    "art": "res://assets/art/common/luminargot.webp",
+    "lore": "Sa coquille éclaire les sentiers sans déranger la nuit.",
+    "number": "049"
+  },
+  {
+    "id": "corailou",
+    "name": "CORAILOU",
+    "title": "Crabe du récif",
+    "rarity": "common",
+    "art": "res://assets/art/common/corailou.webp",
+    "lore": "De minuscules coraux colorent sa carapace.",
+    "number": "050"
+  },
+  {
+    "id": "piquebois",
+    "name": "PIQUEBOIS",
+    "title": "Oiseau menuisier",
+    "rarity": "common",
+    "art": "res://assets/art/common/piquebois.webp",
+    "lore": "Il sculpte des spirales dans les branches mortes.",
+    "number": "051"
+  },
+  {
+    "id": "melodine",
+    "name": "MÉLODINE",
+    "title": "Biche des roseaux",
+    "rarity": "common",
+    "art": "res://assets/art/common/melodine.webp",
+    "lore": "Les roseaux frémissent doucement sur son passage.",
+    "number": "052"
+  },
+  {
+    "id": "paprune",
+    "name": "PAPRUNE",
+    "title": "Grue de papier",
+    "rarity": "common",
+    "art": "res://assets/art/common/paprune.webp",
+    "lore": "Elle plie ses ailes pour se glisser entre deux livres.",
+    "number": "053"
+  },
+  {
+    "id": "volubile",
+    "name": "VOLUBILE",
+    "title": "Caméléon des vignes",
+    "rarity": "common",
+    "art": "res://assets/art/common/volubile.webp",
+    "lore": "Ses couleurs changent selon le fruit qu’il regarde.",
+    "number": "054"
+  },
+  {
+    "id": "cristaloup",
+    "name": "CRISTALOUP",
+    "title": "Gardien du lac gelé",
+    "rarity": "rare",
+    "art": "res://assets/art/cristaloup.png",
+    "lore": "Son souffle grave sur la glace des constellations bleues.",
+    "number": "002"
+  },
+  {
+    "id": "noctilux",
+    "name": "NOCTILUX",
+    "title": "Félin des nébuleuses",
+    "rarity": "epic",
+    "art": "res://assets/art/noctilux.png",
+    "lore": "Sa crinière conserve les rêves oubliés des étoiles.",
+    "number": "003"
+  },
+  {
+    "id": "solgriffon",
+    "name": "SOLGRIFFON",
+    "title": "Souverain de l’aurore",
+    "rarity": "legendary",
+    "art": "res://assets/art/solgriffon.png",
+    "lore": "Chaque battement d’aile rallume un fragment du soleil.",
+    "number": "004"
+  },
+  {
+    "id": "chroma_zero",
+    "name": "CHRØMA–ZÉRO",
+    "title": "Anomalie prismatique",
+    "rarity": "unique",
+    "art": "res://assets/art/chroma_zero.png",
+    "lore": "Ses écailles de mercure abritent des galaxies encore sans nom.",
+    "number": "005"
+  },
+  {
+    "id": "prismara",
+    "name": "PRISMARA",
+    "title": "Renarde des spectres",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/prismara.webp",
+    "lore": "Chacune de ses queues décompose une lumière venue d’un univers différent.",
+    "number": "055"
+  },
+  {
+    "id": "mercurel",
+    "name": "MERCUREL",
+    "title": "Cerf du mercure vivant",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/mercurel.webp",
+    "lore": "Ses ramures relient des constellations qui ne devraient jamais se rencontrer.",
+    "number": "056"
+  },
+  {
+    "id": "abyssalis",
+    "name": "ABYSSALIS",
+    "title": "Raie du vide profond",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/abyssalis.webp",
+    "lore": "Sous ses ailes miroitantes dérive un océan où naissent les galaxies.",
+    "number": "057"
+  },
+  {
+    "id": "axiome_7",
+    "name": "AXIOME–7",
+    "title": "Archiviste des instants",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/axiome_7.webp",
+    "lore": "Chaque plume conserve la mémoire d’une seconde effacée du temps.",
+    "number": "058"
+  },
+  {
+    "id": "helion_nacre",
+    "name": "HÉLION NACRÉ",
+    "title": "Phénix du soleil blanc",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/helion_nacre.webp",
+    "lore": "Son feu ne brûle rien : il révèle la couleur secrète de toute matière.",
+    "number": "059"
+  },
+  {
+    "id": "mirolynx",
+    "name": "MIROLYNX",
+    "title": "Chasseur des reflets",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/mirolynx.webp",
+    "lore": "Il traverse les miroirs avant que son reflet n’ait le temps de le suivre.",
+    "number": "060"
+  },
+  {
+    "id": "oracle_omega",
+    "name": "ORACLE–Ω",
+    "title": "Voyante des marées astrales",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/oracle_omega.webp",
+    "lore": "La galaxie sous sa couronne change de forme pour annoncer les futurs possibles.",
+    "number": "061"
+  },
+  {
+    "id": "astralithe",
+    "name": "ASTRALITHE",
+    "title": "Titan des mondes clos",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/astralithe.webp",
+    "lore": "Un système planétaire entier tourne lentement derrière son cœur de verre.",
+    "number": "062"
+  },
+  {
+    "id": "vespera_x",
+    "name": "VESPERA–X",
+    "title": "Papillon de l’ultime nuit",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/vespera_x.webp",
+    "lore": "Ses ailes gardent la dernière lueur des étoiles déjà disparues.",
+    "number": "063"
+  },
+  {
+    "id": "boreal_prime",
+    "name": "BORÉAL PRIME",
+    "title": "Ours de l’aurore infinie",
+    "rarity": "unique",
+    "art": "res://assets/art/unique/boreal_prime.webp",
+    "lore": "Une aurore silencieuse voyage sous sa fourrure de fils d’argent.",
+    "number": "064"
+  },
+  {
+    "id": "aeternum",
+    "name": "AETERNUM",
+    "title": "Souverain de l’Origine",
+    "rarity": "ultimate",
+    "art": "res://assets/art/ultimate/aeternum.webp",
+    "lore": "Lorsque toutes les anomalies chromatiques s’accordent, son cœur rallume le premier univers.",
+    "number": "065",
+    "tradable": false
+  },
+  {
+    "id": "verdilou",
+    "name": "VERDILOU",
+    "title": "Tatou des jeunes feuilles",
+    "rarity": "common",
+    "art": "res://assets/art/common/verdilou.webp",
+    "lore": "Chaque plaque de son dos change de teinte avec la saison.",
+    "number": "066"
+  },
+  {
+    "id": "boissonge",
+    "name": "BOISSONGE",
+    "title": "Dormeur aux bois tendres",
+    "rarity": "common",
+    "art": "res://assets/art/common/boissonge.webp",
+    "lore": "Ses petits bois continuent de faire pousser des feuilles pendant ses siestes.",
+    "number": "067"
+  },
+  {
+    "id": "rivulon",
+    "name": "RIVULON",
+    "title": "Bâtisseur des ruisseaux",
+    "rarity": "common",
+    "art": "res://assets/art/common/rivulon.webp",
+    "lore": "Il construit des barrages juste assez solides pour abriter les têtards.",
+    "number": "068"
+  },
+  {
+    "id": "perlipode",
+    "name": "PERLIPODE",
+    "title": "Gardien des perles basses",
+    "rarity": "common",
+    "art": "res://assets/art/common/perlipode.webp",
+    "lore": "Il polit les galets jusqu’à ce qu’ils ressemblent à de petites lunes.",
+    "number": "069"
+  },
+  {
+    "id": "granitou",
+    "name": "GRANITOU",
+    "title": "Pika des cairns",
+    "rarity": "common",
+    "art": "res://assets/art/common/granitou.webp",
+    "lore": "Il se souvient de chaque sentier grâce à l’équilibre de ses pierres.",
+    "number": "070"
+  },
+  {
+    "id": "givreon",
+    "name": "GIVRÉON",
+    "title": "Hermine des racines gelées",
+    "rarity": "common",
+    "art": "res://assets/art/common/givreon.webp",
+    "lore": "Le givre au bout de ses moustaches lui indique la direction du vent.",
+    "number": "071"
+  },
+  {
+    "id": "tisonnet",
+    "name": "TISONNET",
+    "title": "Salamandre des feux calmes",
+    "rarity": "common",
+    "art": "res://assets/art/common/tisonnet.webp",
+    "lore": "Il veille sur les dernières braises pour que les voyageurs n’aient jamais froid.",
+    "number": "072"
+  },
+  {
+    "id": "zephyrin",
+    "name": "ZÉPHYRIN",
+    "title": "Colibri des courants",
+    "rarity": "common",
+    "art": "res://assets/art/common/zephyrin.webp",
+    "lore": "Ses battements d’ailes remettent en mouvement les brises endormies.",
+    "number": "073"
+  },
+  {
+    "id": "lunibat",
+    "name": "LUNIBAT",
+    "title": "Chauve-souris du croissant",
+    "rarity": "common",
+    "art": "res://assets/art/common/lunibat.webp",
+    "lore": "Elle retrouve son chemin en écoutant la lumière rebondir sur les fleurs.",
+    "number": "074"
+  },
+  {
+    "id": "songelin",
+    "name": "SONGELIN",
+    "title": "Tapir des rêves légers",
+    "rarity": "common",
+    "art": "res://assets/art/common/songelin.webp",
+    "lore": "Il aspire les petits cauchemars avant qu’ils ne réveillent la forêt.",
+    "number": "075"
+  },
+  {
+    "id": "roncelet",
+    "name": "RONCELET",
+    "title": "Porc-épic des haies",
+    "rarity": "common",
+    "art": "res://assets/art/common/roncelet.webp",
+    "lore": "Les ronces de son dos protègent les baies jusqu’à leur maturité.",
+    "number": "076"
+  },
+  {
+    "id": "folifere",
+    "name": "FOLIFÈRE",
+    "title": "Mante des feuilles rousses",
+    "rarity": "common",
+    "art": "res://assets/art/common/folifere.webp",
+    "lore": "Elle change de feuille préférée chaque fois que la forêt change de couleur.",
+    "number": "077"
+  },
+  {
+    "id": "clapotin",
+    "name": "CLAPOTIN",
+    "title": "Musaraigne des remous",
+    "rarity": "common",
+    "art": "res://assets/art/common/clapotin.webp",
+    "lore": "Ses petites pattes savent courir sur l’eau pendant exactement sept bonds.",
+    "number": "078"
+  },
+  {
+    "id": "anemonou",
+    "name": "ANÉMONOU",
+    "title": "Lapin des marées",
+    "rarity": "common",
+    "art": "res://assets/art/common/anemonou.webp",
+    "lore": "Ses branchies frémissent chaque fois qu’une vague lointaine rejoint le rivage.",
+    "number": "079"
+  },
+  {
+    "id": "marmouette",
+    "name": "MARMOUETTE",
+    "title": "Siffleuse des alpages",
+    "rarity": "common",
+    "art": "res://assets/art/common/marmouette.webp",
+    "lore": "Son sifflement prévient les fleurs de montagne avant l’arrivée du gel.",
+    "number": "080"
+  },
+  {
+    "id": "ardoisin",
+    "name": "ARDOISIN",
+    "title": "Corbeau des plaques grises",
+    "rarity": "common",
+    "art": "res://assets/art/common/ardoisin.webp",
+    "lore": "Il collectionne les éclats d’ardoise qui chantent sous la pluie.",
+    "number": "081"
+  },
+  {
+    "id": "cendril",
+    "name": "CENDRIL",
+    "title": "Scarabée des cendres",
+    "rarity": "common",
+    "art": "res://assets/art/common/cendril.webp",
+    "lore": "Il transporte les braises perdues jusqu’aux foyers qui s’éteignent.",
+    "number": "082"
+  },
+  {
+    "id": "cirrulon",
+    "name": "CIRRULON",
+    "title": "Écureuil des nuages fins",
+    "rarity": "common",
+    "art": "res://assets/art/common/cirrulon.webp",
+    "lore": "Sa queue rassemble les petits nuages pour fabriquer des coussins de voyage.",
+    "number": "083"
+  },
+  {
+    "id": "veillelune",
+    "name": "VEILLELUNE",
+    "title": "Gardien des fleurs dormantes",
+    "rarity": "common",
+    "art": "res://assets/art/common/veillelune.webp",
+    "lore": "Ses grands yeux restent ouverts jusqu’à ce que la dernière fleur soit endormie.",
+    "number": "084"
+  },
+  {
+    "id": "dormelin",
+    "name": "DORMELIN",
+    "title": "Quokka des songes doux",
+    "rarity": "common",
+    "art": "res://assets/art/common/dormelin.webp",
+    "lore": "La marque claire de son dos devient chaude lorsque quelqu’un fait un beau rêve.",
+    "number": "085"
+  },
+  {
+    "id": "fougeron",
+    "name": "FOUGERON",
+    "title": "Skink aux fougères",
+    "rarity": "common",
+    "art": "res://assets/art/common/fougeron.webp",
+    "lore": "Sa crête se déroule lentement chaque fois que la pluie approche.",
+    "number": "086"
+  },
+  {
+    "id": "pommelin",
+    "name": "POMMELIN",
+    "title": "Gardien du verger",
+    "rarity": "common",
+    "art": "res://assets/art/common/pommelin.webp",
+    "lore": "Il goûte chaque pomme tombée pour décider à qui elle fera plaisir.",
+    "number": "087"
+  },
+  {
+    "id": "ecumeau",
+    "name": "ÉCUMEAU",
+    "title": "Lionceau des écumes",
+    "rarity": "common",
+    "art": "res://assets/art/common/ecumeau.webp",
+    "lore": "La petite collerette autour de son cou revient après chaque vague.",
+    "number": "088"
+  },
+  {
+    "id": "nacrilou",
+    "name": "NACRILOU",
+    "title": "Tortue de nacre",
+    "rarity": "common",
+    "art": "res://assets/art/common/nacrilou.webp",
+    "lore": "Sa carapace conserve les couleurs du premier lever de soleil qu’elle a vu.",
+    "number": "089"
+  },
+  {
+    "id": "silexin",
+    "name": "SILEXIN",
+    "title": "Daman des silex",
+    "rarity": "common",
+    "art": "res://assets/art/common/silexin.webp",
+    "lore": "Ses griffes font chanter la pierre sans jamais produire d’étincelle.",
+    "number": "090"
+  },
+  {
+    "id": "alpiflore",
+    "name": "ALPIFLORE",
+    "title": "Bouquetin des edelweiss",
+    "rarity": "common",
+    "art": "res://assets/art/common/alpiflore.webp",
+    "lore": "Les fleurs de ses cornes restent fraîches même au sommet des montagnes.",
+    "number": "091"
+  },
+  {
+    "id": "fumerol",
+    "name": "FUMEROL",
+    "title": "Chinchilla des vapeurs",
+    "rarity": "common",
+    "art": "res://assets/art/common/fumerol.webp",
+    "lore": "Sa queue transforme la chaleur des pierres en petits nuages tièdes.",
+    "number": "092"
+  },
+  {
+    "id": "alizeon",
+    "name": "ALIZÉON",
+    "title": "Libellule des alizés",
+    "rarity": "common",
+    "art": "res://assets/art/common/alizeon.webp",
+    "lore": "Ses ailes dessinent la route la plus douce à travers les vents.",
+    "number": "093"
+  },
+  {
+    "id": "ombrelune",
+    "name": "OMBRELUNE",
+    "title": "Gerboise du croissant",
+    "rarity": "common",
+    "art": "res://assets/art/common/ombrelune.webp",
+    "lore": "Ses oreilles captent les murmures déposés par la lune sur le sable.",
+    "number": "094"
+  },
+  {
+    "id": "murmurel",
+    "name": "MURMUREL",
+    "title": "Kinkajou des secrets",
+    "rarity": "common",
+    "art": "res://assets/art/common/murmurel.webp",
+    "lore": "Il range les secrets de la forêt dans les anneaux argentés de sa queue.",
+    "number": "095"
+  },
+  {
+    "id": "chenilou",
+    "name": "CHENILOU",
+    "title": "Chenille au manteau de feuille",
+    "rarity": "common",
+    "art": "res://assets/art/common/chenilou.webp",
+    "lore": "Elle change de couverture à chaque nouvelle couleur de la forêt.",
+    "number": "096"
+  },
+  {
+    "id": "sylvelin",
+    "name": "SYLVELIN",
+    "title": "Blaireau des racines",
+    "rarity": "common",
+    "art": "res://assets/art/common/sylvelin.webp",
+    "lore": "Le masque de son visage imite l’écorce de l’arbre où il a grandi.",
+    "number": "097"
+  },
+  {
+    "id": "bullotin",
+    "name": "BULLOTIN",
+    "title": "Poisson aux trois bulles",
+    "rarity": "common",
+    "art": "res://assets/art/common/bullotin.webp",
+    "lore": "Ses trois bulles reviennent toujours dans le même ordre après avoir éclaté.",
+    "number": "098"
+  },
+  {
+    "id": "roselot",
+    "name": "ROSELOT",
+    "title": "Grenouille des roseaux",
+    "rarity": "common",
+    "art": "res://assets/art/common/roselot.webp",
+    "lore": "La petite fleur sur sa tête s’ouvre dès que l’étang devient parfaitement calme.",
+    "number": "099"
+  },
+  {
+    "id": "talutin",
+    "name": "TALUTIN",
+    "title": "Campagnol des talus",
+    "rarity": "common",
+    "art": "res://assets/art/common/talutin.webp",
+    "lore": "Les plaques de son dos l’aident à retrouver les passages cachés dans la montagne.",
+    "number": "100"
+  },
+  {
+    "id": "neigrive",
+    "name": "NEIGRIVE",
+    "title": "Perdrix des neiges",
+    "rarity": "common",
+    "art": "res://assets/art/common/neigrive.webp",
+    "lore": "Ses plumes gardent la chaleur des baies qu’elle protège sous les branches.",
+    "number": "101"
+  },
+  {
+    "id": "scoriot",
+    "name": "SCORIOT",
+    "title": "Escargot des scories",
+    "rarity": "common",
+    "art": "res://assets/art/common/scoriot.webp",
+    "lore": "Sa coquille refroidit lentement les pierres trop chaudes pour les autres créatures.",
+    "number": "102"
+  },
+  {
+    "id": "pluvion",
+    "name": "PLUVION",
+    "title": "Hirondelle de l’averse",
+    "rarity": "common",
+    "art": "res://assets/art/common/pluvion.webp",
+    "lore": "Les pointes de sa queue laissent tomber deux gouttes après chaque virage.",
+    "number": "103"
+  },
+  {
+    "id": "lucerne",
+    "name": "LUCERNE",
+    "title": "Gecko-lanterne",
+    "rarity": "common",
+    "art": "res://assets/art/common/lucerne.webp",
+    "lore": "La lumière de sa gorge s’adoucit lorsqu’une créature s’endort près de lui.",
+    "number": "104"
+  },
+  {
+    "id": "veloursin",
+    "name": "VELOURSIN",
+    "title": "Civette de velours",
+    "rarity": "common",
+    "art": "res://assets/art/common/veloursin.webp",
+    "lore": "Ses pas sont si silencieux que les fleurs ne se referment jamais sur son passage.",
+    "number": "105"
+  },
+  {
+    "id": "lianette",
+    "name": "LIANETTE",
+    "title": "Paresseuse aux lianes",
+    "rarity": "common",
+    "art": "res://assets/art/common/lianette.webp",
+    "lore": "La liane autour de son cou pousse juste assez vite pour suivre ses longues siestes.",
+    "number": "106"
+  },
+  {
+    "id": "bourgeon",
+    "name": "BOURGEON",
+    "title": "Fourmilier du printemps",
+    "rarity": "common",
+    "art": "res://assets/art/common/bourgeon.webp",
+    "lore": "Le bouton au bout de sa queue fleurit lorsqu’il retrouve une graine perdue.",
+    "number": "107"
+  },
+  {
+    "id": "meduson",
+    "name": "MÉDUSON",
+    "title": "Méduse des eaux douces",
+    "rarity": "common",
+    "art": "res://assets/art/common/meduson.webp",
+    "lore": "Ses tentacules dessinent de petits rubans dans les courants les plus calmes.",
+    "number": "108"
+  },
+  {
+    "id": "palmiplouf",
+    "name": "PALMIPLOUF",
+    "title": "Caneton aux pieds de nénuphar",
+    "rarity": "common",
+    "art": "res://assets/art/common/palmiplouf.webp",
+    "lore": "Chaque saut fait apparaître une éclaboussure parfaitement ronde.",
+    "number": "109"
+  },
+  {
+    "id": "yakounet",
+    "name": "YAKOUNET",
+    "title": "Gardien des hauts pâturages",
+    "rarity": "common",
+    "art": "res://assets/art/common/yakounet.webp",
+    "lore": "Sa longue fourrure abrite les graines fragiles pendant les tempêtes de neige.",
+    "number": "110"
+  },
+  {
+    "id": "tardigrin",
+    "name": "TARDIGRIN",
+    "title": "Marcheur des gouttes",
+    "rarity": "common",
+    "art": "res://assets/art/common/tardigrin.webp",
+    "lore": "Pour lui, une simple goutte de rosée contient tout un monde à explorer.",
+    "number": "111"
+  },
+  {
+    "id": "braisil",
+    "name": "BRAISIL",
+    "title": "Lézard des pierres chaudes",
+    "rarity": "common",
+    "art": "res://assets/art/common/braisil.webp",
+    "lore": "Les motifs de ses flancs s’illuminent quand le désert commence à refroidir.",
+    "number": "112"
+  },
+  {
+    "id": "nimbulon",
+    "name": "NIMBULON",
+    "title": "Alouette des nuages",
+    "rarity": "common",
+    "art": "res://assets/art/common/nimbulon.webp",
+    "lore": "Sa queue rassemble la brume du matin en petits nuages ronds.",
+    "number": "113"
+  },
+  {
+    "id": "astrinou",
+    "name": "ASTRINOU",
+    "title": "Taupe au nez d’étoile",
+    "rarity": "common",
+    "art": "res://assets/art/common/astrinou.webp",
+    "lore": "Son nez reconnaît la forme des étoiles même sous plusieurs mètres de terre.",
+    "number": "114"
+  },
+  {
+    "id": "brumenuit",
+    "name": "BRUMENUIT",
+    "title": "Papillon des jardins brumeux",
+    "rarity": "common",
+    "art": "res://assets/art/common/brumenuit.webp",
+    "lore": "Ses ailes dispersent la brume sans jamais réveiller les fleurs nocturnes.",
+    "number": "115"
+  },
+  {
+    "id": "azuryn",
+    "name": "AZURYN",
+    "title": "Renard des trois hivers",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/azuryn.webp",
+    "lore": "Chacune de ses queues garde la mémoire d’un hiver différent.",
+    "number": "116"
+  },
+  {
+    "id": "marelys",
+    "name": "MARÉLYS",
+    "title": "Kelpie des marées d’argent",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/marelys.webp",
+    "lore": "Sa crinière se change en écume lorsque la lune attire les grandes marées.",
+    "number": "117"
+  },
+  {
+    "id": "givracorne",
+    "name": "GIVRACORNE",
+    "title": "Cerf du glacier bleu",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/givracorne.webp",
+    "lore": "Ses ramures conservent les chemins secrets sous la glace millénaire.",
+    "number": "118"
+  },
+  {
+    "id": "voltais",
+    "name": "VOLTAÏS",
+    "title": "Panthère de l’orage",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/voltais.webp",
+    "lore": "La pluie révèle sur son pelage les lignes bleues de l’électricité contenue.",
+    "number": "119"
+  },
+  {
+    "id": "celestrel",
+    "name": "CÉLESTREL",
+    "title": "Gryphon des cités célestes",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/celestrel.webp",
+    "lore": "Il connaît chaque courant reliant les anciennes cités bâties au-dessus des nuages.",
+    "number": "120"
+  },
+  {
+    "id": "corallys",
+    "name": "CORALLYS",
+    "title": "Gardien du récif saphir",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/corallys.webp",
+    "lore": "Les coraux bleus de son armure grandissent quand le récif retrouve sa lumière.",
+    "number": "121"
+  },
+  {
+    "id": "abysson",
+    "name": "ABYSSON",
+    "title": "Baleine des abysses lumineux",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/abysson.webp",
+    "lore": "Les constellations de son dos guident les voyageurs loin sous la surface.",
+    "number": "122"
+  },
+  {
+    "id": "fulgurion",
+    "name": "FULGURION",
+    "title": "Aigle des fronts d’orage",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/fulgurion.webp",
+    "lore": "Il sépare les nuages d’un battement d’aile avant que la foudre ne frappe.",
+    "number": "123"
+  },
+  {
+    "id": "saphirax",
+    "name": "SAPHIRAX",
+    "title": "Dracoscara du cristal bleu",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/saphirax.webp",
+    "lore": "Sa carapace protège une étincelle draconique aussi ancienne que la caverne.",
+    "number": "124"
+  },
+  {
+    "id": "lunerive",
+    "name": "LUNÉRIVE",
+    "title": "Lynx des reflets lunaires",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/lunerive.webp",
+    "lore": "Il marche sur les reflets de la lune sans jamais troubler l’eau.",
+    "number": "125"
+  },
+  {
+    "id": "hydrelia",
+    "name": "HYDRÉLIA",
+    "title": "Hydre des trois cascades",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/hydrelia.webp",
+    "lore": "Ses trois voix commandent chacune un courant différent de la même rivière.",
+    "number": "126"
+  },
+  {
+    "id": "nebularc",
+    "name": "NÉBULARC",
+    "title": "Antilope des arcs célestes",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/nebularc.webp",
+    "lore": "Ses cornes tracent des ponts de lumière entre les nuages éloignés.",
+    "number": "127"
+  },
+  {
+    "id": "tidalis",
+    "name": "TIDALIS",
+    "title": "Lion des anneaux de marée",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/tidalis.webp",
+    "lore": "Les deux anneaux qui l’entourent annoncent la force de la prochaine marée.",
+    "number": "128"
+  },
+  {
+    "id": "cryonis",
+    "name": "CRYONIS",
+    "title": "Chouette du cristal d’hiver",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/cryonis.webp",
+    "lore": "Chaque plume tombée devient un flocon qui ne fond qu’au clair de lune.",
+    "number": "129"
+  },
+  {
+    "id": "volterra",
+    "name": "VOLTERRA",
+    "title": "Lièvre de l’éclair bleu",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/volterra.webp",
+    "lore": "Il atteint l’autre côté de l’orage avant que le tonnerre ne le remarque.",
+    "number": "130"
+  },
+  {
+    "id": "aqualame",
+    "name": "AQUALAME",
+    "title": "Espadon des courants tranchants",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/aqualame.webp",
+    "lore": "Son rostre sépare les courants sans jamais blesser les habitants du récif.",
+    "number": "131"
+  },
+  {
+    "id": "selenice",
+    "name": "SÉLÉNICE",
+    "title": "Lièvre du cercle lunaire",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/selenice.webp",
+    "lore": "Le cercle à ses pieds grandit à mesure que la pleine lune approche.",
+    "number": "132"
+  },
+  {
+    "id": "glaciorse",
+    "name": "GLACIORSE",
+    "title": "Morse des défenses bleues",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/glaciorse.webp",
+    "lore": "Ses défenses conservent la fraîcheur des glaciers pendant les étés polaires.",
+    "number": "133"
+  },
+  {
+    "id": "cyaneon",
+    "name": "CYANÉON",
+    "title": "Caméléon du cristal cyan",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/cyaneon.webp",
+    "lore": "Les plaques de son dos reproduisent la nuance exacte du ciel nocturne.",
+    "number": "134"
+  },
+  {
+    "id": "tempelys",
+    "name": "TEMPÉLYS",
+    "title": "Serpent des nuages électriques",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/tempelys.webp",
+    "lore": "Il noue les nuages entre eux pour empêcher les tempêtes de se disperser.",
+    "number": "135"
+  },
+  {
+    "id": "auroryx",
+    "name": "AURORYX",
+    "title": "Panthère des aurores",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/auroryx.webp",
+    "lore": "Les aurores de sa queue changent de couleur lorsqu’un voyageur retrouve sa route.",
+    "number": "136"
+  },
+  {
+    "id": "thalassor",
+    "name": "THALASSOR",
+    "title": "Raie du temple englouti",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/thalassor.webp",
+    "lore": "Ses ailes protègent les fresques anciennes des courants trop violents.",
+    "number": "137"
+  },
+  {
+    "id": "electrame",
+    "name": "ÉLECTRAME",
+    "title": "Bélier du courant céleste",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/electrame.webp",
+    "lore": "Ses cornes accumulent la foudre pour l’éloigner des villages de montagne.",
+    "number": "138"
+  },
+  {
+    "id": "geleide",
+    "name": "GELÉIDE",
+    "title": "Crocodile du fleuve gelé",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/geleide.webp",
+    "lore": "Les plaques de son dos maintiennent ouvertes les rivières sous la glace.",
+    "number": "139"
+  },
+  {
+    "id": "cyanophis",
+    "name": "CYANOPHIS",
+    "title": "Cobra de la source cyan",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/cyanophis.webp",
+    "lore": "Les veines de sa coiffe indiquent la pureté des sources cachées.",
+    "number": "140"
+  },
+  {
+    "id": "astreon",
+    "name": "ASTRÉON",
+    "title": "Pégase du premier ciel",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/astreon.webp",
+    "lore": "Ses sabots retrouvent les routes d’étoiles effacées par le jour.",
+    "number": "141"
+  },
+  {
+    "id": "marinelle",
+    "name": "MARINELLE",
+    "title": "Dauphin du cercle marin",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/marinelle.webp",
+    "lore": "Le cercle qu’elle franchit ramène toujours les nageurs vers une mer calme.",
+    "number": "142"
+  },
+  {
+    "id": "frostelle",
+    "name": "FROSTELLE",
+    "title": "Papillon des fleurs de glace",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/frostelle.webp",
+    "lore": "Ses ailes font éclore des fleurs de givre sur les branches endormies.",
+    "number": "143"
+  },
+  {
+    "id": "tonneroc",
+    "name": "TONNEROC",
+    "title": "Rhinocéros du tonnerre",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/tonneroc.webp",
+    "lore": "Il charge les orages pour ouvrir un passage aux pluies nécessaires.",
+    "number": "144"
+  },
+  {
+    "id": "lacrymor",
+    "name": "LACRYMOR",
+    "title": "Tortue du lac de cristal",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/lacrymor.webp",
+    "lore": "Sa carapace reflète le souvenir de chaque cascade venue nourrir le lac.",
+    "number": "145"
+  },
+  {
+    "id": "polarys",
+    "name": "POLARYS",
+    "title": "Tigre aux crocs polaires",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/polarys.webp",
+    "lore": "Ses traces de givre restent visibles jusqu’au retour de la prochaine aurore.",
+    "number": "146"
+  },
+  {
+    "id": "nautilys",
+    "name": "NAUTILYS",
+    "title": "Nautile du labyrinthe bleu",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/nautilys.webp",
+    "lore": "Chaque chambre de sa coquille conserve la carte d’un courant sous-marin.",
+    "number": "147"
+  },
+  {
+    "id": "mistralis",
+    "name": "MISTRALIS",
+    "title": "Grue des vents miroirs",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/mistralis.webp",
+    "lore": "Ses pas sur les nuages révèlent la direction des vents invisibles.",
+    "number": "148"
+  },
+  {
+    "id": "drakeon",
+    "name": "DRAKÉON",
+    "title": "Dragon du fleuve lunaire",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/drakeon.webp",
+    "lore": "Ses ailes liquides ramènent les rivières vers leur ancien lit.",
+    "number": "149"
+  },
+  {
+    "id": "orbalys",
+    "name": "ORBALYS",
+    "title": "Tisseuse des perles d’eau",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/orbalys.webp",
+    "lore": "Sa toile recueille les gouttes de lune avant qu’elles ne touchent la forêt.",
+    "number": "150"
+  },
+  {
+    "id": "sirenys",
+    "name": "SIRENYS",
+    "title": "Cygne des lacs chantants",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/sirenys.webp",
+    "lore": "Les anneaux sur l’eau répètent sa mélodie longtemps après son passage.",
+    "number": "151"
+  },
+  {
+    "id": "vortexis",
+    "name": "VORTEXIS",
+    "title": "Poulpe des huit tourbillons",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/vortexis.webp",
+    "lore": "Chacun de ses bras guide un courant différent dans les profondeurs.",
+    "number": "152"
+  },
+  {
+    "id": "ceruleon",
+    "name": "CÉRULÉON",
+    "title": "Lion à la crinière d’azur",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/ceruleon.webp",
+    "lore": "Sa crinière reflète le ciel même lorsque la nuit couvre la savane.",
+    "number": "153"
+  },
+  {
+    "id": "nivarok",
+    "name": "NIVAROK",
+    "title": "Ours du rempart glaciaire",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/nivarok.webp",
+    "lore": "Les plaques de ses épaules renforcent la glace fragile sous les voyageurs.",
+    "number": "154"
+  },
+  {
+    "id": "sonaris",
+    "name": "SONARIS",
+    "title": "Chauve-souris des échos cyan",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/sonaris.webp",
+    "lore": "Ses cercles sonores dessinent les cavernes avant même qu’elle ne les traverse.",
+    "number": "155"
+  },
+  {
+    "id": "requinor",
+    "name": "REQUINOR",
+    "title": "Requin du saphir profond",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/requinor.webp",
+    "lore": "Les lignes de son dos éclairent les passages sûrs entre les récifs obscurs.",
+    "number": "156"
+  },
+  {
+    "id": "paonys",
+    "name": "PAONYS",
+    "title": "Paon des plumes gelées",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/paonys.webp",
+    "lore": "Chaque plume de sa roue conserve un motif de givre différent.",
+    "number": "157"
+  },
+  {
+    "id": "medurage",
+    "name": "MÉDURAGE",
+    "title": "Méduse de l’orage marin",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/medurage.webp",
+    "lore": "Ses filaments recueillent la foudre qui se perd sous les vagues.",
+    "number": "158"
+  },
+  {
+    "id": "crabyss",
+    "name": "CRABYSS",
+    "title": "Crabe des abysses bleus",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/crabyss.webp",
+    "lore": "Sa carapace ferme l’entrée des cavernes lorsque les courants deviennent dangereux.",
+    "number": "159"
+  },
+  {
+    "id": "nordelan",
+    "name": "NORDÉLAN",
+    "title": "Élan des neiges d’azur",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/nordelan.webp",
+    "lore": "Ses larges ramures retiennent la lumière des aurores pendant la nuit polaire.",
+    "number": "160"
+  },
+  {
+    "id": "cumulys",
+    "name": "CUMULYS",
+    "title": "Baleine des nuages",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/cumulys.webp",
+    "lore": "Elle rassemble les nuages dispersés avant les longues traversées du ciel.",
+    "number": "161"
+  },
+  {
+    "id": "azurmine",
+    "name": "AZURMINE",
+    "title": "Pangolin du minerai cyan",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/azurmine.webp",
+    "lore": "Ses écailles révèlent les veines minérales sans jamais abîmer la roche.",
+    "number": "162"
+  },
+  {
+    "id": "frostral",
+    "name": "FROSTRAL",
+    "title": "Mante du givre",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/frostral.webp",
+    "lore": "Ses ailes déposent des motifs de glace sur les fleurs qui résistent à l’hiver.",
+    "number": "163"
+  },
+  {
+    "id": "resonyx",
+    "name": "RÉSONYX",
+    "title": "Renard des échos cristallins",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/resonyx.webp",
+    "lore": "Ses appels reviennent chargés de la forme exacte des cavernes traversées.",
+    "number": "164"
+  },
+  {
+    "id": "ocerune",
+    "name": "OCÉRUNE",
+    "title": "Koi du cercle lunaire",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/ocerune.webp",
+    "lore": "Il nage autour du reflet de la lune jusqu’à ce que l’eau retrouve son calme.",
+    "number": "165"
+  },
+  {
+    "id": "glacetan",
+    "name": "GLACÉTAN",
+    "title": "Bison du glacier",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/glacetan.webp",
+    "lore": "Sa marche compacte la neige pour ouvrir des routes aux troupeaux du nord.",
+    "number": "166"
+  },
+  {
+    "id": "ondalys",
+    "name": "ONDALYS",
+    "title": "Éléphant des vagues",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/ondalys.webp",
+    "lore": "Ses grandes oreilles déplacent l’eau sans troubler les fleurs de la lagune.",
+    "number": "167"
+  },
+  {
+    "id": "vivarion",
+    "name": "VIVARION",
+    "title": "Dragon-axolotl des sources",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/vivarion.webp",
+    "lore": "Ses branchies retrouvent les sources cachées sous les anciennes cavernes.",
+    "number": "168"
+  },
+  {
+    "id": "cyclonys",
+    "name": "CYCLONYS",
+    "title": "Albatros du cyclone",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/cyclonys.webp",
+    "lore": "Il vole au centre des tempêtes pour guider les vents vers la mer ouverte.",
+    "number": "169"
+  },
+  {
+    "id": "brumeon",
+    "name": "BRUMÉON",
+    "title": "Renard des brumes lunaires",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/brumeon.webp",
+    "lore": "Sa queue conserve la brume jusqu’à ce que la forêt ait besoin de disparaître.",
+    "number": "170"
+  },
+  {
+    "id": "eclator",
+    "name": "ÉCLATOR",
+    "title": "Scarabée de l’éclair",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/eclator.webp",
+    "lore": "Ses mandibules divisent la foudre en étincelles assez douces pour les arbres.",
+    "number": "171"
+  },
+  {
+    "id": "lagunys",
+    "name": "LAGUNYS",
+    "title": "Crocodile de la lagune cyan",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/lagunys.webp",
+    "lore": "Les marques de sa queue indiquent la profondeur exacte de la lagune.",
+    "number": "172"
+  },
+  {
+    "id": "perleide",
+    "name": "PERLÉIDE",
+    "title": "Calmar des perles bleues",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/perleide.webp",
+    "lore": "Chaque perle qu’il garde contient un reflet d’une ancienne marée.",
+    "number": "173"
+  },
+  {
+    "id": "zephyroc",
+    "name": "ZÉPHYROC",
+    "title": "Bouquetin des vents",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/zephyroc.webp",
+    "lore": "Ses cornes découpent dans le ciel des passages où le vent devient calme.",
+    "number": "174"
+  },
+  {
+    "id": "harmonys",
+    "name": "HARMONYS",
+    "title": "Oiseau des ondes bleues",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/harmonys.webp",
+    "lore": "Son chant accorde les cristaux jusqu’à ce que toute la forêt résonne ensemble.",
+    "number": "175"
+  },
+  {
+    "id": "aquaroc",
+    "name": "AQUAROC",
+    "title": "Hippopotame du fleuve saphir",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/aquaroc.webp",
+    "lore": "Son armure d’eau détourne les crues avant qu’elles n’atteignent les rives.",
+    "number": "176"
+  },
+  {
+    "id": "saphiriel",
+    "name": "SAPHIRIEL",
+    "title": "Licorne de la vallée bleue",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/saphiriel.webp",
+    "lore": "Sa corne éclaire les vallées lorsque la neige efface tous les chemins.",
+    "number": "177"
+  },
+  {
+    "id": "volteris",
+    "name": "VOLTÉRIS",
+    "title": "Komodo de la foudre",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/volteris.webp",
+    "lore": "Les éclairs de son dos nourrissent les fleurs qui poussent après l’orage.",
+    "number": "178"
+  },
+  {
+    "id": "cryopod",
+    "name": "CRYOPOD",
+    "title": "Araignée des glaces",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/cryopod.webp",
+    "lore": "Sa toile retient les flocons jusqu’à former des ponts entre les pins.",
+    "number": "179"
+  },
+  {
+    "id": "brisalys",
+    "name": "BRISALYS",
+    "title": "Papillon des vents clairs",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/brisalys.webp",
+    "lore": "Les rubans de ses ailes dénouent les courants d’air trop violents.",
+    "number": "180"
+  },
+  {
+    "id": "nereon",
+    "name": "NÉRÉON",
+    "title": "Loutre chevalier des rivières",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/nereon.webp",
+    "lore": "Il protège les anciennes pierres qui indiquent la profondeur des rivières.",
+    "number": "181"
+  },
+  {
+    "id": "glacephyr",
+    "name": "GLACÉPHYR",
+    "title": "Libellule du lac gelé",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/glacephyr.webp",
+    "lore": "Ses ailes dessinent des cercles où la glace reste parfaitement transparente.",
+    "number": "182"
+  },
+  {
+    "id": "tonnelyx",
+    "name": "TONNELYX",
+    "title": "Tigre du tonnerre",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/tonnelyx.webp",
+    "lore": "Ses rayures s’illuminent une seconde avant que le ciel ne gronde.",
+    "number": "183"
+  },
+  {
+    "id": "maregon",
+    "name": "MARÉGON",
+    "title": "Serpent des grandes marées",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/maregon.webp",
+    "lore": "Il enlace les courants pour empêcher l’océan de franchir les récifs.",
+    "number": "184"
+  },
+  {
+    "id": "aurelune",
+    "name": "AURÉLUNE",
+    "title": "Chouette de l’anneau lunaire",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/aurelune.webp",
+    "lore": "L’anneau qui l’accompagne révèle les chemins uniquement visibles depuis le ciel.",
+    "number": "185"
+  },
+  {
+    "id": "glacerix",
+    "name": "GLACÉRIX",
+    "title": "Ankylosaure du glacier",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/glacerix.webp",
+    "lore": "Sa masse de glace consolide les crevasses avant le passage des troupeaux.",
+    "number": "186"
+  },
+  {
+    "id": "orcelia",
+    "name": "ORCÉLIA",
+    "title": "Orque des mers célestes",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/orcelia.webp",
+    "lore": "Elle nage entre les nuages comme si le ciel avait toujours été un océan.",
+    "number": "187"
+  },
+  {
+    "id": "voltibra",
+    "name": "VOLTIBRA",
+    "title": "Zèbre des lignes électriques",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/voltibra.webp",
+    "lore": "Ses rayures distribuent la foudre sans qu’aucune étincelle ne se perde.",
+    "number": "188"
+  },
+  {
+    "id": "neretide",
+    "name": "NÉRÉTIDE",
+    "title": "Dragon-tortue des marées",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/neretide.webp",
+    "lore": "Les spirales de sa carapace indiquent l’heure exacte des grandes marées.",
+    "number": "189"
+  },
+  {
+    "id": "brumazur",
+    "name": "BRUMAZUR",
+    "title": "Éléphant des brumes bleues",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/brumazur.webp",
+    "lore": "Ses oreilles déploient la brume pour rafraîchir les forêts anciennes.",
+    "number": "190"
+  },
+  {
+    "id": "aquaflore",
+    "name": "AQUAFLORE",
+    "title": "Axolotl aux branchies fleuries",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/aquaflore.webp",
+    "lore": "Ses fleurs aquatiques changent de couleur selon la pureté de la source.",
+    "number": "191"
+  },
+  {
+    "id": "hurlecristal",
+    "name": "HURLECRISTAL",
+    "title": "Coyote des résonances",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/hurlecristal.webp",
+    "lore": "Son hurlement révèle les cristaux cachés au plus profond des canyons.",
+    "number": "192"
+  },
+  {
+    "id": "zenithys",
+    "name": "ZÉNITHYS",
+    "title": "Colibri du zénith",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/zenithys.webp",
+    "lore": "Il atteint toujours le point le plus haut du ciel au moment exact de midi.",
+    "number": "193"
+  },
+  {
+    "id": "givrecaille",
+    "name": "GIVRÉCAILLE",
+    "title": "Iguane des sources gelées",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/givrecaille.webp",
+    "lore": "Ses épines maintiennent l’équilibre entre les eaux chaudes et la neige.",
+    "number": "194"
+  },
+  {
+    "id": "perceazur",
+    "name": "PERCEAZUR",
+    "title": "Narval de la cathédrale de glace",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/perceazur.webp",
+    "lore": "Sa défense ouvre les arches gelées sans jamais briser leur lumière.",
+    "number": "195"
+  },
+  {
+    "id": "manatys",
+    "name": "MANATYS",
+    "title": "Lamantin des jardins submergés",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/manatys.webp",
+    "lore": "Les motifs de son dos font éclore les plantes des palais engloutis.",
+    "number": "196"
+  },
+  {
+    "id": "turquor",
+    "name": "TURQUOR",
+    "title": "Taureau des cornes de marée",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/turquor.webp",
+    "lore": "Ses cornes retiennent les vagues jusqu’à ce que les côtes soient prêtes.",
+    "number": "197"
+  },
+  {
+    "id": "morphelia",
+    "name": "MORPHÉLIA",
+    "title": "Morpho des courants célestes",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/morphelia.webp",
+    "lore": "Ses ailes révèlent les passages invisibles entre les couches du ciel.",
+    "number": "198"
+  },
+  {
+    "id": "cavernyx",
+    "name": "CAVERNYX",
+    "title": "Salamandre des grottes bleues",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/cavernyx.webp",
+    "lore": "Les plaques de son dos s’allument près des galeries encore inexplorées.",
+    "number": "199"
+  },
+  {
+    "id": "voltarok",
+    "name": "VOLTAROK",
+    "title": "Gorille de la foudre",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/voltarok.webp",
+    "lore": "Il enferme l’électricité dans ses poings pour protéger la canopée.",
+    "number": "200"
+  },
+  {
+    "id": "aerolis",
+    "name": "AÉROLIS",
+    "title": "Faucon du courant d’azur",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/aerolis.webp",
+    "lore": "Ses plumes de vol tracent la route la plus courte à travers les nuages.",
+    "number": "201"
+  },
+  {
+    "id": "glacedon",
+    "name": "GLACÉDON",
+    "title": "Bœuf musqué du givre",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/glacedon.webp",
+    "lore": "Sa fourrure garde la chaleur des vallées pendant les nuits polaires.",
+    "number": "202"
+  },
+  {
+    "id": "ocephine",
+    "name": "OCÉPHINE",
+    "title": "Phoque des perles froides",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/ocephine.webp",
+    "lore": "Les perles de son pelage brillent lorsque la glace devient trop fine.",
+    "number": "203"
+  },
+  {
+    "id": "saphiris",
+    "name": "SAPHIRIS",
+    "title": "Scorpion du cristal bleu",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/saphiris.webp",
+    "lore": "Sa queue transporte une lumière froide qui révèle les oasis nocturnes.",
+    "number": "204"
+  },
+  {
+    "id": "lunacor",
+    "name": "LUNACOR",
+    "title": "Tatou de l’armure lunaire",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/lunacor.webp",
+    "lore": "Les plaques de sa carapace se referment comme les phases de la lune.",
+    "number": "205"
+  },
+  {
+    "id": "glaciom",
+    "name": "GLACIOM",
+    "title": "Mammouth des glaciers",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/glaciom.webp",
+    "lore": "Ses défenses déplacent les blocs de glace sans briser les vallées gelées.",
+    "number": "206"
+  },
+  {
+    "id": "voltaconda",
+    "name": "VOLTACONDA",
+    "title": "Anaconda électrique",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/voltaconda.webp",
+    "lore": "Ses anneaux conduisent la foudre jusque dans les racines de la jungle.",
+    "number": "207"
+  },
+  {
+    "id": "nebulys",
+    "name": "NÉBULYS",
+    "title": "Phénix des nuages bleus",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/nebulys.webp",
+    "lore": "Ses plumes renaissent dans la brume avant de rejoindre les étoiles.",
+    "number": "208"
+  },
+  {
+    "id": "typhonys",
+    "name": "TYPHONYS",
+    "title": "Requin-marteau de la tempête",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/typhonys.webp",
+    "lore": "Il disperse les éclairs sous-marins avant qu’ils n’atteignent les récifs.",
+    "number": "209"
+  },
+  {
+    "id": "azureon",
+    "name": "AZURÉON",
+    "title": "Stégosaure du cristal cyan",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/azureon.webp",
+    "lore": "Les plaques de son dos absorbent le froid pour protéger les jeunes pousses.",
+    "number": "210"
+  },
+  {
+    "id": "luminage",
+    "name": "LUMINAGE",
+    "title": "Gazelle aux bois de lumière",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/luminage.webp",
+    "lore": "Ses bois dessinent dans le ciel les chemins suivis par les étoiles filantes.",
+    "number": "211"
+  },
+  {
+    "id": "iridon",
+    "name": "IRIDON",
+    "title": "Scarabée irisé des profondeurs",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/iridon.webp",
+    "lore": "Sa carapace restitue toutes les nuances bleues absorbées dans les cavernes.",
+    "number": "212"
+  },
+  {
+    "id": "aqualtis",
+    "name": "AQUALTIS",
+    "title": "Dragon marin aux nageoires saphir",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/aqualtis.webp",
+    "lore": "Ses nageoires soulèvent des courants qui reconstruisent les récifs endommagés.",
+    "number": "213"
+  },
+  {
+    "id": "briselyx",
+    "name": "BRISÉLYX",
+    "title": "Lynx ailé des vents polaires",
+    "rarity": "rare",
+    "art": "res://assets/art/rare/briselyx.webp",
+    "lore": "Ses ailes rassemblent les brises froides pour dégager le ciel des montagnes.",
+    "number": "214"
+  },
+  {
+    "id": "astraphenix",
+    "name": "ASTRAPHÉNIX",
+    "title": "Phénix des nébuleuses",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/astraphenix.webp",
+    "lore": "Chaque renaissance disperse dans le vide les graines d’une nouvelle nébuleuse.",
+    "number": "215"
+  },
+  {
+    "id": "nyxara",
+    "name": "NYXARA",
+    "title": "Sphinx de la nuit violette",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/nyxara.webp",
+    "lore": "Ses énigmes ouvrent les temples qui n’existent qu’entre deux éclipses.",
+    "number": "216"
+  },
+  {
+    "id": "cosmocerf",
+    "name": "COSMOCERF",
+    "title": "Cerf des constellations",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/cosmocerf.webp",
+    "lore": "Ses ramures replacent les étoiles égarées dans le ciel pourpre.",
+    "number": "217"
+  },
+  {
+    "id": "eclipson",
+    "name": "ÉCLIPSON",
+    "title": "Serpent de l’éclipse",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/eclipson.webp",
+    "lore": "Il enlace l’ombre du soleil pour empêcher la nuit de durer éternellement.",
+    "number": "218"
+  },
+  {
+    "id": "nebulion",
+    "name": "NÉBULION",
+    "title": "Lion du cœur galactique",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/nebulion.webp",
+    "lore": "Le noyau dans sa poitrine bat au rythme des galaxies de sa crinière.",
+    "number": "219"
+  },
+  {
+    "id": "oraclys",
+    "name": "ORACLYS",
+    "title": "Chouette des futurs pourpres",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/oraclys.webp",
+    "lore": "La carte astrale de son cœur change chaque fois qu’un futur devient possible.",
+    "number": "220"
+  },
+  {
+    "id": "onirys",
+    "name": "ONIRYS",
+    "title": "Baleine des rêves",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/onirys.webp",
+    "lore": "Elle transporte les rêves oubliés jusqu’aux îles qui dorment dans le ciel.",
+    "number": "221"
+  },
+  {
+    "id": "mycelune",
+    "name": "MYCÉLUNE",
+    "title": "Gardien du mycélium astral",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/mycelune.webp",
+    "lore": "Les champignons de son dos relient les racines de forêts séparées par le vide.",
+    "number": "222"
+  },
+  {
+    "id": "vorteria",
+    "name": "VORTÉRIA",
+    "title": "Dragonne du vortex violet",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/vorteria.webp",
+    "lore": "Son vol courbe la lumière autour des îles brisées sans jamais les engloutir.",
+    "number": "223"
+  },
+  {
+    "id": "prismantis",
+    "name": "PRISMANTIS",
+    "title": "Mante des prismes astraux",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/prismantis.webp",
+    "lore": "Ses ailes divisent la lumière des étoiles en milliers de pétales pourpres.",
+    "number": "224"
+  },
+  {
+    "id": "abyssara",
+    "name": "ABYSSARA",
+    "title": "Kraken des abysses pourpres",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/abyssara.webp",
+    "lore": "Ses tentacules relient les ruines englouties aux courants du vide.",
+    "number": "225"
+  },
+  {
+    "id": "chronoryx",
+    "name": "CHRONORYX",
+    "title": "Dragon du temps fracturé",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/chronoryx.webp",
+    "lore": "Chaque écaille conserve un instant que le monde a choisi d’oublier.",
+    "number": "226"
+  },
+  {
+    "id": "lunaphage",
+    "name": "LUNAPHAGE",
+    "title": "Papillon dévoreur d’éclipses",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/lunaphage.webp",
+    "lore": "Il absorbe l’ombre des éclipses pour rendre leur lumière aux lunes.",
+    "number": "227"
+  },
+  {
+    "id": "astralgor",
+    "name": "ASTRALGOR",
+    "title": "Gorille du noyau astral",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/astralgor.webp",
+    "lore": "Le cœur de sa poitrine maintient en équilibre les fragments de sa lune.",
+    "number": "228"
+  },
+  {
+    "id": "miragelle",
+    "name": "MIRAGELLE",
+    "title": "Gazelle des mirages oniriques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/miragelle.webp",
+    "lore": "Ses reflets empruntent des chemins différents avant de rejoindre le même rêve.",
+    "number": "229"
+  },
+  {
+    "id": "voidalis",
+    "name": "VOIDALIS",
+    "title": "Raie du vide violet",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/voidalis.webp",
+    "lore": "Ses ailes déplacent les marées invisibles qui traversent le vide.",
+    "number": "230"
+  },
+  {
+    "id": "seraphyx",
+    "name": "SÉRAPHYX",
+    "title": "Tigre aux six ailes",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/seraphyx.webp",
+    "lore": "Chaque paire d’ailes garde une frontière différente du ciel pourpre.",
+    "number": "231"
+  },
+  {
+    "id": "dendranyx",
+    "name": "DENDRANYX",
+    "title": "Dragon-racine cosmique",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/dendranyx.webp",
+    "lore": "Ses racines parcourent les îles flottantes comme un unique arbre immense.",
+    "number": "232"
+  },
+  {
+    "id": "psycheon",
+    "name": "PSYCHÉON",
+    "title": "Méduse des mémoires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/psycheon.webp",
+    "lore": "Ses filaments conservent les souvenirs qui refusent de disparaître.",
+    "number": "233"
+  },
+  {
+    "id": "graviterra",
+    "name": "GRAVITERRA",
+    "title": "Tortue des mondes flottants",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/graviterra.webp",
+    "lore": "Les îles de sa carapace tournent autour d’elle selon leurs propres lois.",
+    "number": "234"
+  },
+  {
+    "id": "leviathys",
+    "name": "LÉVIATHYS",
+    "title": "Léviathan des océans stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/leviathys.webp",
+    "lore": "Son passage soulève des vagues capables de traverser les frontières du ciel.",
+    "number": "235"
+  },
+  {
+    "id": "morpherion",
+    "name": "MORPHÉRION",
+    "title": "Dragon des métamorphoses",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/morpherion.webp",
+    "lore": "Ses ailes changent de matière chaque fois qu’il franchit un nouveau monde.",
+    "number": "236"
+  },
+  {
+    "id": "nexara",
+    "name": "NEXARA",
+    "title": "Araignée du nexus violet",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/nexara.webp",
+    "lore": "Sa toile relie les lunes qui ne partagent pourtant aucun même ciel.",
+    "number": "237"
+  },
+  {
+    "id": "solstyra",
+    "name": "SOLSTYRA",
+    "title": "Licorne du solstice pourpre",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/solstyra.webp",
+    "lore": "Sa corne maintient l’équilibre entre le jour violet et la nuit argentée.",
+    "number": "238"
+  },
+  {
+    "id": "cryptelys",
+    "name": "CRYPTÉLYS",
+    "title": "Phénix des ruines astrales",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/cryptelys.webp",
+    "lore": "Ses plumes reconstruisent les temples que les étoiles ont abandonnés.",
+    "number": "239"
+  },
+  {
+    "id": "galaxour",
+    "name": "GALAXOUR",
+    "title": "Ours des galaxies",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/galaxour.webp",
+    "lore": "Chaque constellation de sa fourrure protège une forêt suspendue dans le vide.",
+    "number": "240"
+  },
+  {
+    "id": "somnifere",
+    "name": "SOMNIFÈRE",
+    "title": "Papillon des sommeils profonds",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/somnifere.webp",
+    "lore": "Ses ailes referment les rêves trop vastes pour tenir dans une seule nuit.",
+    "number": "241"
+  },
+  {
+    "id": "arcanodon",
+    "name": "ARCANODON",
+    "title": "Tricératops des arcanes",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/arcanodon.webp",
+    "lore": "Sa collerette concentre les forces invisibles des vallées préhistoriques.",
+    "number": "242"
+  },
+  {
+    "id": "melodrys",
+    "name": "MÉLODRYS",
+    "title": "Sirène-dragon des chants cosmiques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/melodrys.webp",
+    "lore": "Sa voix fait vibrer les courants stellaires jusque dans les temples engloutis.",
+    "number": "243"
+  },
+  {
+    "id": "plasmantor",
+    "name": "PLASMANTOR",
+    "title": "Taureau du plasma violet",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/plasmantor.webp",
+    "lore": "Ses cornes canalisent les vents solaires avant qu’ils ne frappent les mondes.",
+    "number": "244"
+  },
+  {
+    "id": "titanebra",
+    "name": "TITANEBRA",
+    "title": "Éléphant du crépuscule cosmique",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/titanebra.webp",
+    "lore": "Sa marche déplace la frontière entre le dernier jour et la première nuit.",
+    "number": "245"
+  },
+  {
+    "id": "auroracle",
+    "name": "AURORACLE",
+    "title": "Paon oracle des aurores violettes",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/auroracle.webp",
+    "lore": "Chaque plume de sa roue révèle un futur différent sous la même aurore.",
+    "number": "246"
+  },
+  {
+    "id": "lunakrak",
+    "name": "LUNAKRAK",
+    "title": "Crabe de la lune fracturée",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/lunakrak.webp",
+    "lore": "La lune de sa carapace rassemble les fragments perdus au fil des marées.",
+    "number": "247"
+  },
+  {
+    "id": "stellaphin",
+    "name": "STELLAPHIN",
+    "title": "Dauphin des constellations pourpres",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/stellaphin.webp",
+    "lore": "Ses bonds relient les constellations séparées par les océans du ciel.",
+    "number": "248"
+  },
+  {
+    "id": "obscuryx",
+    "name": "OBSCURYX",
+    "title": "Jaguar des ombres astrales",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/obscuryx.webp",
+    "lore": "Les galaxies de son pelage apparaissent seulement dans les ombres les plus profondes.",
+    "number": "249"
+  },
+  {
+    "id": "myriadon",
+    "name": "MYRIADON",
+    "title": "Mille-pattes du chemin stellaire",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/myriadon.webp",
+    "lore": "Ses innombrables pas dessinent une route lumineuse entre les mondes.",
+    "number": "250"
+  },
+  {
+    "id": "arcanorys",
+    "name": "ARCANORYS",
+    "title": "Hippogriffe des arcanes",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/arcanorys.webp",
+    "lore": "Ses ailes dispersent les sortilèges trop anciens pour être encore compris.",
+    "number": "251"
+  },
+  {
+    "id": "cosmanthe",
+    "name": "COSMANTHE",
+    "title": "Hydre florale des galaxies",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/cosmanthe.webp",
+    "lore": "Chacune de ses trois têtes fait fleurir une saison cosmique différente.",
+    "number": "252"
+  },
+  {
+    "id": "spectralys",
+    "name": "SPECTRALYS",
+    "title": "Bélier spectral",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/spectralys.webp",
+    "lore": "Ses cornes rassemblent les esprits égarés sur les crêtes lunaires.",
+    "number": "253"
+  },
+  {
+    "id": "violethor",
+    "name": "VIOLETHOR",
+    "title": "Rhinocéros du tonnerre pourpre",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/violethor.webp",
+    "lore": "Sa corne fend les tempêtes astrales avant qu’elles ne touchent les îles.",
+    "number": "254"
+  },
+  {
+    "id": "abysseon",
+    "name": "ABYSSÉON",
+    "title": "Poisson-lanterne du vide pourpre",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/abysseon.webp",
+    "lore": "Sa lumière révèle les chemins cachés au fond des océans stellaires.",
+    "number": "255"
+  },
+  {
+    "id": "phantomys",
+    "name": "PHANTOMYS",
+    "title": "Loup des lunes perdues",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/phantomys.webp",
+    "lore": "Ses appels rassemblent les lunes qui ont disparu de leurs orbites.",
+    "number": "256"
+  },
+  {
+    "id": "crystalune",
+    "name": "CRYSTALUNE",
+    "title": "Dragon des lunes jumelles",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/crystalune.webp",
+    "lore": "Ses ailes maintiennent deux lunes en équilibre autour du même monde.",
+    "number": "257"
+  },
+  {
+    "id": "revara",
+    "name": "RÊVARA",
+    "title": "Biche des chemins oniriques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/revara.webp",
+    "lore": "Ses bois ouvrent des sentiers que seuls les rêveurs peuvent emprunter.",
+    "number": "258"
+  },
+  {
+    "id": "infernova",
+    "name": "INFERNOVA",
+    "title": "Salamandre de la supernova violette",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/infernova.webp",
+    "lore": "Les flammes de son dos refroidissent les étoiles après leur dernier éclat.",
+    "number": "259"
+  },
+  {
+    "id": "spiralys",
+    "name": "SPIRALYS",
+    "title": "Nautile de la spirale galactique",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/spiralys.webp",
+    "lore": "La galaxie de sa coquille grandit à chaque nouveau voyage cosmique.",
+    "number": "260"
+  },
+  {
+    "id": "celestyx",
+    "name": "CÉLESTYX",
+    "title": "Aigle des tempêtes stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/celestyx.webp",
+    "lore": "Ses ailes séparent les orages d’étoiles avant qu’ils ne frappent les temples.",
+    "number": "261"
+  },
+  {
+    "id": "orbigon",
+    "name": "ORBIGON",
+    "title": "Pangolin des anneaux orbitaux",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/orbigon.webp",
+    "lore": "Chaque écaille porte une petite orbite qu’il protège en se refermant.",
+    "number": "262"
+  },
+  {
+    "id": "magnetara",
+    "name": "MAGNÉTARA",
+    "title": "Scorpion des forces magnétiques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/magnetara.webp",
+    "lore": "Sa queue maintient les fragments métalliques en suspension autour des astres.",
+    "number": "263"
+  },
+  {
+    "id": "floreclipse",
+    "name": "FLORÉCLIPSE",
+    "title": "Dragon-orchidée de l’éclipse",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/floreclipse.webp",
+    "lore": "Ses pétales s’ouvrent uniquement lorsque la lumière rencontre l’ombre parfaite.",
+    "number": "264"
+  },
+  {
+    "id": "singularis",
+    "name": "SINGULARIS",
+    "title": "Corbeau du trou noir",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/singularis.webp",
+    "lore": "Son vol courbe la lumière sans laisser l’ombre engloutir les cités célestes.",
+    "number": "265"
+  },
+  {
+    "id": "astrocene",
+    "name": "ASTROCÈNE",
+    "title": "Stégosaure des ères stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/astrocene.webp",
+    "lore": "Chaque plaque de son dos conserve la lumière d’une époque disparue.",
+    "number": "266"
+  },
+  {
+    "id": "etherion",
+    "name": "ÉTHÉRION",
+    "title": "Dragon des vents d’éther",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/etherion.webp",
+    "lore": "Ses ailes ouvrent des courants capables de traverser les mondes immatériels.",
+    "number": "267"
+  },
+  {
+    "id": "nocthydre",
+    "name": "NOCTHYDRE",
+    "title": "Hydre des nuits multiples",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/nocthydre.webp",
+    "lore": "Chacune de ses têtes veille sur une lune et une nuit différentes.",
+    "number": "268"
+  },
+  {
+    "id": "resonara",
+    "name": "RÉSONARA",
+    "title": "Baleine des chants violets",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/resonara.webp",
+    "lore": "Son chant traverse les océans du vide et réveille les étoiles silencieuses.",
+    "number": "269"
+  },
+  {
+    "id": "floravide",
+    "name": "FLORAVIDE",
+    "title": "Louve des fleurs du vide",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/floravide.webp",
+    "lore": "Les orchidées de son pelage fleurissent là où aucune lumière ne subsiste.",
+    "number": "270"
+  },
+  {
+    "id": "vesperion",
+    "name": "VESPÉRION",
+    "title": "Chauve-souris des crépuscules",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/vesperion.webp",
+    "lore": "Ses ailes conservent le dernier ciel avant que la nuit ne devienne complète.",
+    "number": "271"
+  },
+  {
+    "id": "gravilys",
+    "name": "GRAVILYS",
+    "title": "Méduse gravitationnelle",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/gravilys.webp",
+    "lore": "Les lunes sous sa cloche déplacent l’eau et les pierres autour d’elle.",
+    "number": "272"
+  },
+  {
+    "id": "selenara",
+    "name": "SÉLÉNARA",
+    "title": "Tigresse de la lune pourpre",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/selenara.webp",
+    "lore": "Ses rayures lunaires apparaissent lorsque deux croissants se rencontrent.",
+    "number": "273"
+  },
+  {
+    "id": "arcanorbe",
+    "name": "ARCANORBE",
+    "title": "Scarabée du monde-orbe",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/arcanorbe.webp",
+    "lore": "Le monde de sa carapace possède ses propres océans, forêts et petites lunes.",
+    "number": "274"
+  },
+  {
+    "id": "trilunys",
+    "name": "TRILUNYS",
+    "title": "Cerbère des trois lunes",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/trilunys.webp",
+    "lore": "Chacune de ses têtes garde une lune et refuse de laisser leur lumière s’éteindre.",
+    "number": "275"
+  },
+  {
+    "id": "astrakoi",
+    "name": "ASTRAKOI",
+    "title": "Koi des rivières stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/astrakoi.webp",
+    "lore": "Ses nageoires redessinent les rivières qui traversent les jardins du ciel.",
+    "number": "276"
+  },
+  {
+    "id": "meteoryx",
+    "name": "MÉTÉORYX",
+    "title": "Bison des pluies de météores",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/meteoryx.webp",
+    "lore": "Sa crinière rassemble les météores avant qu’ils ne rencontrent les mondes.",
+    "number": "277"
+  },
+  {
+    "id": "psionys",
+    "name": "PSIONYS",
+    "title": "Cobra des pensées astrales",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/psionys.webp",
+    "lore": "Sa coiffe rend visibles les pensées oubliées dans les bibliothèques du vide.",
+    "number": "278"
+  },
+  {
+    "id": "eclatara",
+    "name": "ÉCLATARA",
+    "title": "Colibri des fragments pourpres",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/eclatara.webp",
+    "lore": "Les éclats de sa queue se réunissent chaque fois qu’il termine un vol.",
+    "number": "279"
+  },
+  {
+    "id": "orbitara",
+    "name": "ORBITARA",
+    "title": "Raie des orbites violettes",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/orbitara.webp",
+    "lore": "Les anneaux qui l’accompagnent guident les petites lunes autour des océans.",
+    "number": "280"
+  },
+  {
+    "id": "revours",
+    "name": "RÊVOURS",
+    "title": "Ours des rêves lucides",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/revours.webp",
+    "lore": "Il traverse les rêves éveillés pour ramener les voyageurs vers leur monde.",
+    "number": "281"
+  },
+  {
+    "id": "vulcanova",
+    "name": "VULCANOVA",
+    "title": "Varan du volcan stellaire",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/vulcanova.webp",
+    "lore": "Ses écailles refroidissent le plasma jusqu’à former de nouvelles terres.",
+    "number": "282"
+  },
+  {
+    "id": "luminexa",
+    "name": "LUMINEXA",
+    "title": "Araignée-lanterne cosmique",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/luminexa.webp",
+    "lore": "Sa toile suspend les lunes miniatures pour éclairer les forêts astrales.",
+    "number": "283"
+  },
+  {
+    "id": "chimerys",
+    "name": "CHIMÉRYS",
+    "title": "Chimère du palais astral",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/chimerys.webp",
+    "lore": "Ses trois natures protègent ensemble les portes du palais céleste.",
+    "number": "284"
+  },
+  {
+    "id": "monolyth",
+    "name": "MONOLYTH",
+    "title": "Golem des monolithes vivants",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/monolyth.webp",
+    "lore": "Les pierres séparées de son corps obéissent toutes au même cœur de nébuleuse.",
+    "number": "285"
+  },
+  {
+    "id": "sirenara",
+    "name": "SIRÉNARA",
+    "title": "Orque des chants stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/sirenara.webp",
+    "lore": "Sa voix fait onduler les étoiles comme des vagues dans un océan invisible.",
+    "number": "286"
+  },
+  {
+    "id": "eclypsara",
+    "name": "ECLYPSARA",
+    "title": "Panthère aux anneaux d’éclipse",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/eclypsara.webp",
+    "lore": "Les anneaux qui l’accompagnent retiennent les ombres trop proches du monde.",
+    "number": "287"
+  },
+  {
+    "id": "viridanys",
+    "name": "VIRIDANYS",
+    "title": "Crocodile de la jungle cosmique",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/viridanys.webp",
+    "lore": "Les orchidées de son dos relient les rivières de la forêt aux lunes violettes.",
+    "number": "288"
+  },
+  {
+    "id": "stellarach",
+    "name": "STELLARACH",
+    "title": "Scorpion des cartes stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/stellarach.webp",
+    "lore": "La lumière de sa queue révèle les routes célestes sans jamais laisser de marque.",
+    "number": "289"
+  },
+  {
+    "id": "drakorium",
+    "name": "DRAKORIUM",
+    "title": "Dragon des cristaux orbitaux",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/drakorium.webp",
+    "lore": "Les anneaux de cristal protègent son cœur des forces qui courbent les étoiles.",
+    "number": "290"
+  },
+  {
+    "id": "aetheris",
+    "name": "AETHÉRIS",
+    "title": "Antilope des vents du vide",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/aetheris.webp",
+    "lore": "Ses ailes traversent les courants qui n’existent entre aucun monde connu.",
+    "number": "291"
+  },
+  {
+    "id": "mirravys",
+    "name": "MIRRAVYS",
+    "title": "Cygne des miroirs lunaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/mirravys.webp",
+    "lore": "Ses plumes reflètent les lunes telles qu’elles apparaissent dans les autres réalités.",
+    "number": "292"
+  },
+  {
+    "id": "noctambra",
+    "name": "NOCTAMBRA",
+    "title": "Mammouth de la nuit astrale",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/noctambra.webp",
+    "lore": "Ses défenses déplacent la nuit pour ouvrir un passage aux premières lueurs.",
+    "number": "293"
+  },
+  {
+    "id": "luxmoria",
+    "name": "LUXMORIA",
+    "title": "Méduse des lumières mourantes",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/luxmoria.webp",
+    "lore": "Ses filaments recueillent les derniers rayons des étoiles avant leur silence.",
+    "number": "294"
+  },
+  {
+    "id": "temporax",
+    "name": "TEMPORAX",
+    "title": "Tyrannosaure des boucles temporelles",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/temporax.webp",
+    "lore": "Ses pas réveillent des instants préhistoriques enfermés dans les lunes.",
+    "number": "295"
+  },
+  {
+    "id": "abyssorys",
+    "name": "ABYSSORYS",
+    "title": "Requin des abysses violets",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/abyssorys.webp",
+    "lore": "Les constellations de ses flancs éclairent les océans au-delà du vide.",
+    "number": "296"
+  },
+  {
+    "id": "floreon",
+    "name": "FLORÉON",
+    "title": "Cerf des jardins cosmiques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/floreon.webp",
+    "lore": "Chaque fleur de ses ramures ouvre un jardin sur une étoile différente.",
+    "number": "297"
+  },
+  {
+    "id": "pyreclipse",
+    "name": "PYRÉCLIPSE",
+    "title": "Phénix du feu d’éclipse",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/pyreclipse.webp",
+    "lore": "Ses flammes rendent à la lumière tout ce que l’éclipse avait caché.",
+    "number": "298"
+  },
+  {
+    "id": "orbitox",
+    "name": "ORBITOX",
+    "title": "Crotale des anneaux orbitaux",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/orbitox.webp",
+    "lore": "Le son de sa queue maintient les petites lunes sur leur trajectoire.",
+    "number": "299"
+  },
+  {
+    "id": "memoirys",
+    "name": "MÉMOIRYS",
+    "title": "Éléphant des souvenirs stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/memoirys.webp",
+    "lore": "Ses oreilles conservent les images des mondes que les étoiles ont oubliés.",
+    "number": "300"
+  },
+  {
+    "id": "sombralys",
+    "name": "SOMBRALYS",
+    "title": "Panthère des ombres multiples",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/sombralys.webp",
+    "lore": "Ses silhouettes empruntent chacune une route avant de retrouver le même corps.",
+    "number": "301"
+  },
+  {
+    "id": "galactine",
+    "name": "GALACTINE",
+    "title": "Méduse des galaxies",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/galactine.webp",
+    "lore": "Ses filaments déplacent des galaxies entières comme de simples courants.",
+    "number": "302"
+  },
+  {
+    "id": "astracorne",
+    "name": "ASTRACORNE",
+    "title": "Rhinocéros des étoiles",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/astracorne.webp",
+    "lore": "L’étoile enfermée dans sa corne ouvre un passage à travers les astéroïdes.",
+    "number": "303"
+  },
+  {
+    "id": "nebulysse",
+    "name": "NÉBULYSSE",
+    "title": "Hippocampe des nébuleuses",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/nebulysse.webp",
+    "lore": "Sa queue enroule les nuages stellaires pour former de nouvelles nébuleuses.",
+    "number": "304"
+  },
+  {
+    "id": "zodiacra",
+    "name": "ZODIACRA",
+    "title": "Girafe du zodiaque infini",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/zodiacra.webp",
+    "lore": "Ses taches déplacent les constellations et maintiennent les douze voies du ciel en équilibre.",
+    "number": "305"
+  },
+  {
+    "id": "anomalys",
+    "name": "ANOMALYS",
+    "title": "Pieuvre des portails dimensionnels",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/anomalys.webp",
+    "lore": "Chacun de ses tentacules traverse un monde différent sans jamais quitter le même abysse.",
+    "number": "306"
+  },
+  {
+    "id": "apinova",
+    "name": "APINOVA",
+    "title": "Reine-abeille des ruches stellaires",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/apinova.webp",
+    "lore": "Dans ses alvéoles de nébuleuse mûrit la lumière destinée aux étoiles encore obscures.",
+    "number": "307"
+  },
+  {
+    "id": "kangalys",
+    "name": "KANGALYS",
+    "title": "Kangourou des bonds quantiques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/kangalys.webp",
+    "lore": "Chaque bond franchit une réalité, mais sa longue traîne relie toutes les routes qu’il emprunte.",
+    "number": "308"
+  },
+  {
+    "id": "okaprisme",
+    "name": "OKAPRISME",
+    "title": "Okapi des runes prismatiques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/okaprisme.webp",
+    "lore": "Les runes de son pelage révèlent les chemins que les prismes cachent entre les mondes.",
+    "number": "309"
+  },
+  {
+    "id": "cometalon",
+    "name": "COMÉTALON",
+    "title": "Faucon des comètes fractales",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/cometalon.webp",
+    "lore": "Ses rémiges divisent les comètes en mille trajectoires qui illuminent la nuit pourpre.",
+    "number": "310"
+  },
+  {
+    "id": "nephrolys",
+    "name": "NEPHROLYS",
+    "title": "Homard des failles cosmiques",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/nephrolys.webp",
+    "lore": "Ses pinces referment les déchirures du cosmos avant que le vide n’en dévore les rives.",
+    "number": "311"
+  },
+  {
+    "id": "echidrys",
+    "name": "ÉCHIDRYS",
+    "title": "Échidné aux aiguilles astrales",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/echidrys.webp",
+    "lore": "Une seule de ses aiguilles peut fixer une étoile errante au firmament.",
+    "number": "312"
+  },
+  {
+    "id": "omegalys",
+    "name": "OMEGALYS",
+    "title": "Loup du dernier horizon",
+    "rarity": "epic",
+    "art": "res://assets/art/epic/omegalys.webp",
+    "lore": "Il veille là où la dernière lumière s’achève et où commence le prochain univers.",
+    "number": "313"
+  }
+]

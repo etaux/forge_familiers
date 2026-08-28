@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cfkg8am5ft57m"
+
+[deps]
+
+files=["res://data/production_batches.rarity.translation", "res://data/production_batches.planned.translation", "res://data/production_batches.status.translation"]
+
+source_file="res://data/production_batches.csv"
+dest_files=["res://data/production_batches.rarity.translation", "res://data/production_batches.planned.translation", "res://data/production_batches.status.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

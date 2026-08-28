@@ -1,0 +1,1349 @@
+{
+  "habitats": [
+    {
+      "id": "forest",
+      "label": "FORÊT ÉVEILLÉE",
+      "description": "Mousses, racines et petits gardiens des sous-bois.",
+      "color": "55d982",
+      "reward_dust": 100,
+      "expedition_bonus_percent": 5,
+      "card_ids": [
+        "mousselet",
+        "bouliflore",
+        "galetou",
+        "plumousse",
+        "chataignouf",
+        "patafleur",
+        "gribulbe",
+        "moussecroc",
+        "racinou",
+        "feuillours",
+        "verdilou",
+        "boissonge",
+        "roncelet",
+        "folifere",
+        "fougeron",
+        "pommelin",
+        "chenilou",
+        "sylvelin",
+        "lianette",
+        "bourgeon",
+        "lunerive",
+        "cyaneon",
+        "cyanophis",
+        "orbalys",
+        "azurmine",
+        "eclator",
+        "brumazur",
+        "cavernyx",
+        "saphiris",
+        "mycelune",
+        "prismantis",
+        "dendranyx",
+        "galaxour",
+        "arcanodon",
+        "myriadon",
+        "cosmanthe",
+        "floreclipse",
+        "astrocene",
+        "floravide",
+        "luminexa",
+        "viridanys",
+        "stellarach",
+        "floreon",
+        "sombralys",
+        "apinova",
+        "okaprisme"
+      ]
+    },
+    {
+      "id": "waters",
+      "label": "RIVAGES PAISIBLES",
+      "description": "Créatures des ruisseaux, étangs et récifs lumineux.",
+      "color": "55cfe8",
+      "reward_dust": 100,
+      "expedition_bonus_percent": 5,
+      "card_ids": [
+        "goutillon",
+        "coquillou",
+        "nenupatte",
+        "aqualin",
+        "ondinette",
+        "craplume",
+        "tetardis",
+        "corailou",
+        "rivulon",
+        "perlipode",
+        "clapotin",
+        "anemonou",
+        "ecumeau",
+        "nacrilou",
+        "bullotin",
+        "roselot",
+        "meduson",
+        "palmiplouf",
+        "marelys",
+        "corallys",
+        "abysson",
+        "hydrelia",
+        "tidalis",
+        "aqualame",
+        "glaciorse",
+        "thalassor",
+        "marinelle",
+        "lacrymor",
+        "nautilys",
+        "drakeon",
+        "sirenys",
+        "vortexis",
+        "requinor",
+        "medurage",
+        "crabyss",
+        "ocerune",
+        "ondalys",
+        "vivarion",
+        "lagunys",
+        "perleide",
+        "aquaroc",
+        "nereon",
+        "maregon",
+        "neretide",
+        "aquaflore",
+        "perceazur",
+        "manatys",
+        "turquor",
+        "ocephine",
+        "typhonys",
+        "aqualtis",
+        "onirys",
+        "vorteria",
+        "abyssara",
+        "voidalis",
+        "psycheon",
+        "leviathys",
+        "melodrys",
+        "lunakrak",
+        "stellaphin",
+        "abysseon",
+        "spiralys",
+        "resonara",
+        "gravilys",
+        "astrakoi",
+        "orbitara",
+        "sirenara",
+        "mirravys",
+        "luxmoria",
+        "abyssorys",
+        "galactine",
+        "nebulysse",
+        "anomalys",
+        "nephrolys"
+      ]
+    },
+    {
+      "id": "peaks",
+      "label": "CIMES GELÉES",
+      "description": "Habitants des pierres, du brouillard et des premières neiges.",
+      "color": "91c9f2",
+      "reward_dust": 125,
+      "expedition_bonus_percent": 5,
+      "card_ids": [
+        "floconin",
+        "brumelin",
+        "mineralot",
+        "nuagelin",
+        "cornibulle",
+        "rocoton",
+        "duvetis",
+        "croquenoix",
+        "cristaloup",
+        "granitou",
+        "givreon",
+        "marmouette",
+        "ardoisin",
+        "silexin",
+        "alpiflore",
+        "talutin",
+        "neigrive",
+        "yakounet",
+        "tardigrin",
+        "azuryn",
+        "givracorne",
+        "selenice",
+        "auroryx",
+        "geleide",
+        "polarys",
+        "nivarok",
+        "paonys",
+        "nordelan",
+        "frostral",
+        "glacetan",
+        "zephyroc",
+        "saphiriel",
+        "cryopod",
+        "glacerix",
+        "givrecaille",
+        "glacedon",
+        "glaciom",
+        "azureon",
+        "monolyth",
+        "noctambra",
+        "echidrys"
+      ]
+    },
+    {
+      "id": "embers",
+      "label": "DUNES ET BRAISES",
+      "description": "Voyageurs du sable, des orages secs et des foyers chauds.",
+      "color": "f39a42",
+      "reward_dust": 100,
+      "expedition_bonus_percent": 5,
+      "card_ids": [
+        "braisillon",
+        "sablon",
+        "cactipic",
+        "pyroux",
+        "charbonnet",
+        "orageon",
+        "tisonnet",
+        "cendril",
+        "fumerol",
+        "scoriot",
+        "braisil",
+        "astraphenix",
+        "plasmantor",
+        "violethor",
+        "infernova",
+        "magnetara",
+        "vulcanova",
+        "astracorne",
+        "kangalys"
+      ]
+    },
+    {
+      "id": "sky",
+      "label": "JARDINS DU CIEL",
+      "description": "Ailes légères, pollinisateurs et souverains de l’aurore.",
+      "color": "8fb4ff",
+      "reward_dust": 125,
+      "expedition_bonus_percent": 5,
+      "card_ids": [
+        "luminou",
+        "pollenko",
+        "roselune",
+        "tourbichon",
+        "lucioleau",
+        "glandou",
+        "piquebois",
+        "paprune",
+        "solgriffon",
+        "zephyrin",
+        "cirrulon",
+        "alizeon",
+        "pluvion",
+        "nimbulon",
+        "celestrel",
+        "fulgurion",
+        "nebularc",
+        "cryonis",
+        "tempelys",
+        "astreon",
+        "frostelle",
+        "tonneroc",
+        "mistralis",
+        "cumulys",
+        "cyclonys",
+        "harmonys",
+        "brisalys",
+        "glacephyr",
+        "aurelune",
+        "orcelia",
+        "zenithys",
+        "morphelia",
+        "aerolis",
+        "nebulys",
+        "luminage",
+        "briselyx",
+        "cosmocerf",
+        "oraclys",
+        "miragelle",
+        "seraphyx",
+        "graviterra",
+        "solstyra",
+        "cryptelys",
+        "auroracle",
+        "arcanorys",
+        "celestyx",
+        "orbigon",
+        "singularis",
+        "etherion",
+        "vesperion",
+        "meteoryx",
+        "eclatara",
+        "chimerys",
+        "drakorium",
+        "aetheris",
+        "pyreclipse",
+        "zodiacra",
+        "cometalon"
+      ]
+    },
+    {
+      "id": "night",
+      "label": "SANCTUAIRE NOCTURNE",
+      "description": "Esprits discrets, lumières étranges et anomalies célestes.",
+      "color": "b276ff",
+      "reward_dust": 150,
+      "expedition_bonus_percent": 5,
+      "card_ids": [
+        "bamboupi",
+        "pomponuit",
+        "etincette",
+        "sucrolimace",
+        "lianou",
+        "mielours",
+        "trocoton",
+        "luminargot",
+        "melodine",
+        "volubile",
+        "noctilux",
+        "lunibat",
+        "songelin",
+        "veillelune",
+        "dormelin",
+        "ombrelune",
+        "murmurel",
+        "lucerne",
+        "veloursin",
+        "astrinou",
+        "brumenuit",
+        "voltais",
+        "saphirax",
+        "volterra",
+        "electrame",
+        "ceruleon",
+        "sonaris",
+        "resonyx",
+        "brumeon",
+        "volteris",
+        "tonnelyx",
+        "voltibra",
+        "hurlecristal",
+        "voltarok",
+        "lunacor",
+        "voltaconda",
+        "iridon",
+        "nyxara",
+        "eclipson",
+        "nebulion",
+        "chronoryx",
+        "lunaphage",
+        "astralgor",
+        "morpherion",
+        "nexara",
+        "somnifere",
+        "titanebra",
+        "obscuryx",
+        "spectralys",
+        "phantomys",
+        "crystalune",
+        "revara",
+        "nocthydre",
+        "selenara",
+        "arcanorbe",
+        "trilunys",
+        "psionys",
+        "revours",
+        "eclypsara",
+        "temporax",
+        "orbitox",
+        "memoirys",
+        "omegalys"
+      ]
+    },
+    {
+      "id": "chrome_archive",
+      "label": "ARCHIVE CHROMATIQUE",
+      "description": "Anomalies de chrome, de verre et de matière cosmique vivante.",
+      "color": "dce7f1",
+      "reward_dust": 5000,
+      "expedition_bonus_percent": 5,
+      "card_ids": [
+        "chroma_zero",
+        "prismara",
+        "mercurel",
+        "abyssalis",
+        "axiome_7",
+        "helion_nacre",
+        "mirolynx",
+        "oracle_omega",
+        "astralithe",
+        "vespera_x",
+        "boreal_prime",
+        "aeternum"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "tiny_guardians",
+      "label": "PETITS GARDIENS",
+      "description": "Les premiers compagnons des clairières.",
+      "card_ids": [
+        "mousselet",
+        "bouliflore",
+        "galetou",
+        "plumousse",
+        "patafleur",
+        "chataignouf"
+      ],
+      "reward_essence": 250,
+      "reward_coins": 100,
+      "reward_dust": 25
+    },
+    {
+      "id": "quiet_waters",
+      "label": "EAUX TRANQUILLES",
+      "description": "Une page remplie de bulles et de reflets.",
+      "card_ids": [
+        "goutillon",
+        "coquillou",
+        "nenupatte",
+        "aqualin",
+        "ondinette",
+        "corailou"
+      ],
+      "reward_essence": 300,
+      "reward_coins": 120,
+      "reward_dust": 30
+    },
+    {
+      "id": "light_wind",
+      "label": "VENT LÉGER",
+      "description": "Six créatures portées par les courants.",
+      "card_ids": [
+        "luminou",
+        "pollenko",
+        "roselune",
+        "tourbichon",
+        "glandou",
+        "paprune"
+      ],
+      "reward_essence": 300,
+      "reward_coins": 120,
+      "reward_dust": 30
+    },
+    {
+      "id": "warm_trails",
+      "label": "SENTIERS CHAUDS",
+      "description": "Braises, dunes et petites étincelles.",
+      "card_ids": [
+        "braisillon",
+        "sablon",
+        "cactipic",
+        "pyroux",
+        "charbonnet",
+        "orageon"
+      ],
+      "reward_essence": 350,
+      "reward_coins": 150,
+      "reward_dust": 35
+    },
+    {
+      "id": "soft_winter",
+      "label": "HIVER TENDRE",
+      "description": "La montagne sous une couverture de neige.",
+      "card_ids": [
+        "floconin",
+        "brumelin",
+        "mineralot",
+        "nuagelin",
+        "rocoton",
+        "duvetis"
+      ],
+      "reward_essence": 350,
+      "reward_coins": 150,
+      "reward_dust": 35
+    },
+    {
+      "id": "sweet_night",
+      "label": "DOUCE NUIT",
+      "description": "Petites lumières et silhouettes du soir.",
+      "card_ids": [
+        "pomponuit",
+        "trocoton",
+        "luminargot",
+        "volubile",
+        "etincette",
+        "lianou"
+      ],
+      "reward_essence": 400,
+      "reward_coins": 175,
+      "reward_dust": 40
+    },
+    {
+      "id": "forest_feast",
+      "label": "FESTIN DES BOIS",
+      "description": "Réserves, douceurs et trouvailles du sous-bois.",
+      "card_ids": [
+        "gribulbe",
+        "racinou",
+        "feuillours",
+        "sucrolimace",
+        "croquenoix",
+        "mielours"
+      ],
+      "reward_essence": 400,
+      "reward_coins": 175,
+      "reward_dust": 40
+    },
+    {
+      "id": "origin_founders",
+      "label": "FONDATEURS DE L’ORIGINE",
+      "description": "Les cinq rangs réunis sur une même page prestigieuse.",
+      "card_ids": [
+        "mousselet",
+        "cristaloup",
+        "noctilux",
+        "solgriffon",
+        "chroma_zero",
+        "lucioleau"
+      ],
+      "reward_essence": 2500,
+      "reward_coins": 1000,
+      "reward_dust": 500
+    },
+    {
+      "id": "chrome_genesis",
+      "label": "GENÈSE CHROMATIQUE",
+      "description": "Les premières formes échappées du miroir cosmique.",
+      "card_ids": [
+        "chroma_zero",
+        "prismara",
+        "mercurel",
+        "abyssalis",
+        "axiome_7",
+        "helion_nacre"
+      ],
+      "reward_essence": 10000,
+      "reward_coins": 5000,
+      "reward_dust": 2500
+    },
+    {
+      "id": "infinite_reflections",
+      "label": "REFLETS INFINIS",
+      "description": "Six chefs-d’œuvre que même le vide ne peut reproduire.",
+      "card_ids": [
+        "chroma_zero",
+        "mirolynx",
+        "oracle_omega",
+        "astralithe",
+        "vespera_x",
+        "boreal_prime"
+      ],
+      "reward_essence": 15000,
+      "reward_coins": 7500,
+      "reward_dust": 3500
+    },
+    {
+      "id": "new_horizons",
+      "label": "NOUVEAUX HORIZONS",
+      "description": "Dix nouveaux sentiers s’ouvrent autour de la Forge.",
+      "card_ids": [
+        "verdilou",
+        "boissonge",
+        "rivulon",
+        "perlipode",
+        "granitou",
+        "givreon"
+      ],
+      "reward_essence": 500,
+      "reward_coins": 220,
+      "reward_dust": 50
+    },
+    {
+      "id": "breeze_and_dreams",
+      "label": "BRISES ET SONGES",
+      "description": "Créatures des feux calmes, du vent et des nuits légères.",
+      "card_ids": [
+        "tisonnet",
+        "zephyrin",
+        "lunibat",
+        "songelin",
+        "roselune",
+        "tourbichon"
+      ],
+      "reward_essence": 550,
+      "reward_coins": 250,
+      "reward_dust": 60
+    },
+    {
+      "id": "season_sparks",
+      "label": "ÉCLATS DE SAISONS",
+      "description": "Feuilles, pierres, vent et braises au fil d’un même voyage.",
+      "card_ids": [
+        "roncelet",
+        "folifere",
+        "marmouette",
+        "ardoisin",
+        "cendril",
+        "cirrulon"
+      ],
+      "reward_essence": 600,
+      "reward_coins": 280,
+      "reward_dust": 65
+    },
+    {
+      "id": "quiet_tides",
+      "label": "MARÉES SILENCIEUSES",
+      "description": "Petits gardiens de l’eau et des nuits paisibles.",
+      "card_ids": [
+        "clapotin",
+        "anemonou",
+        "veillelune",
+        "dormelin",
+        "goutillon",
+        "roselune"
+      ],
+      "reward_essence": 650,
+      "reward_coins": 300,
+      "reward_dust": 70
+    },
+    {
+      "id": "roots_and_summits",
+      "label": "RACINES ET SOMMETS",
+      "description": "Du sous-bois aux plus hautes fleurs des montagnes.",
+      "card_ids": [
+        "fougeron",
+        "pommelin",
+        "silexin",
+        "alpiflore",
+        "fumerol",
+        "alizeon"
+      ],
+      "reward_essence": 700,
+      "reward_coins": 320,
+      "reward_dust": 75
+    },
+    {
+      "id": "midnight_foam",
+      "label": "ÉCUME DE MINUIT",
+      "description": "Reflets de nacre et murmures sous la lune.",
+      "card_ids": [
+        "ecumeau",
+        "nacrilou",
+        "ombrelune",
+        "murmurel",
+        "anemonou",
+        "lunibat"
+      ],
+      "reward_essence": 750,
+      "reward_coins": 350,
+      "reward_dust": 80
+    },
+    {
+      "id": "nature_cloaks",
+      "label": "MANTEAUX DE NATURE",
+      "description": "Feuilles, écorce, roche et neige protègent les plus petits.",
+      "card_ids": [
+        "chenilou",
+        "sylvelin",
+        "talutin",
+        "neigrive",
+        "scoriot",
+        "pluvion"
+      ],
+      "reward_essence": 800,
+      "reward_coins": 380,
+      "reward_dust": 90
+    },
+    {
+      "id": "bubbles_and_watchers",
+      "label": "BULLES ET VEILLEURS",
+      "description": "Lueurs nocturnes et habitants des eaux tranquilles.",
+      "card_ids": [
+        "bullotin",
+        "roselot",
+        "lucerne",
+        "veloursin",
+        "clapotin",
+        "luminargot"
+      ],
+      "reward_essence": 850,
+      "reward_coins": 400,
+      "reward_dust": 95
+    },
+    {
+      "id": "drops_and_buds",
+      "label": "GOUTTES ET BOURGEONS",
+      "description": "Petits mondes de rosée, de feuilles et d’eaux calmes.",
+      "card_ids": [
+        "lianette",
+        "bourgeon",
+        "meduson",
+        "palmiplouf",
+        "tardigrin",
+        "nimbulon"
+      ],
+      "reward_essence": 900,
+      "reward_coins": 450,
+      "reward_dust": 110
+    },
+    {
+      "id": "last_common_guardians",
+      "label": "GARDIENS DU CENTIÈME",
+      "description": "Les derniers compagnons nécessaires pour achever les cent communes.",
+      "card_ids": [
+        "yakounet",
+        "braisil",
+        "astrinou",
+        "brumenuit",
+        "veloursin",
+        "alizeon"
+      ],
+      "reward_essence": 1200,
+      "reward_coins": 600,
+      "reward_dust": 150
+    },
+    {
+      "id": "first_blue_sparks",
+      "label": "PREMIERS ÉCLATS BLEUS",
+      "description": "Les premières grandes manifestations du rang Rare.",
+      "card_ids": [
+        "azuryn",
+        "marelys",
+        "givracorne",
+        "voltais",
+        "celestrel",
+        "corallys"
+      ],
+      "reward_essence": 2000,
+      "reward_coins": 1000,
+      "reward_dust": 250
+    },
+    {
+      "id": "depths_and_storms",
+      "label": "PROFONDEURS ET TEMPÊTES",
+      "description": "Lueurs abyssales, foudre et reflets sous la lune.",
+      "card_ids": [
+        "abysson",
+        "fulgurion",
+        "saphirax",
+        "lunerive",
+        "cristaloup",
+        "marelys"
+      ],
+      "reward_essence": 2500,
+      "reward_coins": 1200,
+      "reward_dust": 300
+    },
+    {
+      "id": "tide_crown",
+      "label": "COURONNE DES MARÉES",
+      "description": "Hydres, gardiens et lames des grands courants bleus.",
+      "card_ids": [
+        "hydrelia",
+        "tidalis",
+        "aqualame",
+        "glaciorse",
+        "corallys",
+        "marelys"
+      ],
+      "reward_essence": 2800,
+      "reward_coins": 1400,
+      "reward_dust": 350
+    },
+    {
+      "id": "sky_under_tension",
+      "label": "CIEL SOUS TENSION",
+      "description": "Lune, cristal et foudre au-dessus des nuages.",
+      "card_ids": [
+        "nebularc",
+        "cryonis",
+        "volterra",
+        "selenice",
+        "cyaneon",
+        "tempelys"
+      ],
+      "reward_essence": 3000,
+      "reward_coins": 1500,
+      "reward_dust": 380
+    },
+    {
+      "id": "sapphire_auroras",
+      "label": "AURORES DE SAPHIR",
+      "description": "Glace, foudre et étoiles au-dessus des sommets.",
+      "card_ids": [
+        "auroryx",
+        "electrame",
+        "geleide",
+        "astreon",
+        "frostelle",
+        "tonneroc"
+      ],
+      "reward_essence": 3200,
+      "reward_coins": 1600,
+      "reward_dust": 420
+    },
+    {
+      "id": "submerged_kingdoms",
+      "label": "ROYAUMES IMMERGÉS",
+      "description": "Gardiens bleus des temples et des lacs oubliés.",
+      "card_ids": [
+        "thalassor",
+        "cyanophis",
+        "marinelle",
+        "lacrymor",
+        "abysson",
+        "corallys"
+      ],
+      "reward_essence": 3400,
+      "reward_coins": 1700,
+      "reward_dust": 450
+    },
+    {
+      "id": "zenith_felines",
+      "label": "FAUVES DU ZÉNITH",
+      "description": "Prédateurs de glace et gardiens des plus hauts ciels.",
+      "card_ids": [
+        "polarys",
+        "nivarok",
+        "ceruleon",
+        "sonaris",
+        "mistralis",
+        "sirenys"
+      ],
+      "reward_essence": 3600,
+      "reward_coins": 1800,
+      "reward_dust": 480
+    },
+    {
+      "id": "ocean_spirals",
+      "label": "SPIRALES OCÉANES",
+      "description": "Coquilles, dragons et tourbillons des royaumes bleus.",
+      "card_ids": [
+        "nautilys",
+        "drakeon",
+        "vortexis",
+        "orbalys",
+        "thalassor",
+        "hydrelia"
+      ],
+      "reward_essence": 3800,
+      "reward_coins": 1900,
+      "reward_dust": 520
+    },
+    {
+      "id": "abyss_thrones",
+      "label": "TRÔNES ABYSSAUX",
+      "description": "Les gardiens les plus imposants des profondeurs bleues.",
+      "card_ids": [
+        "requinor",
+        "medurage",
+        "crabyss",
+        "ocerune",
+        "nautilys",
+        "vortexis"
+      ],
+      "reward_essence": 4000,
+      "reward_coins": 2000,
+      "reward_dust": 560
+    },
+    {
+      "id": "blue_highlands",
+      "label": "BLEU DES HAUTES TERRES",
+      "description": "Givre, nuages et cristaux au-dessus des vallées.",
+      "card_ids": [
+        "paonys",
+        "nordelan",
+        "frostral",
+        "cumulys",
+        "azurmine",
+        "resonyx"
+      ],
+      "reward_essence": 4200,
+      "reward_coins": 2100,
+      "reward_dust": 600
+    },
+    {
+      "id": "blue_giants",
+      "label": "GÉANTS DU BLEU",
+      "description": "Créatures immenses des glaciers, des vents et des lagunes.",
+      "card_ids": [
+        "glacetan",
+        "ondalys",
+        "zephyroc",
+        "cyclonys",
+        "lagunys",
+        "brumeon"
+      ],
+      "reward_essence": 4400,
+      "reward_coins": 2200,
+      "reward_dust": 640
+    },
+    {
+      "id": "lagoon_songs",
+      "label": "CHANTS DE LAGUNE",
+      "description": "Ondes, perles et voix qui parcourent les eaux cyan.",
+      "card_ids": [
+        "vivarion",
+        "perleide",
+        "harmonys",
+        "eclator",
+        "marinelle",
+        "medurage"
+      ],
+      "reward_essence": 4600,
+      "reward_coins": 2300,
+      "reward_dust": 680
+    },
+    {
+      "id": "water_knights",
+      "label": "CHEVALIERS DE L’EAU",
+      "description": "Armures bleues et gardiens des fleuves et des marées.",
+      "card_ids": [
+        "aquaroc",
+        "nereon",
+        "maregon",
+        "volteris",
+        "aqualame",
+        "tidalis"
+      ],
+      "reward_essence": 4800,
+      "reward_coins": 2400,
+      "reward_dust": 720
+    },
+    {
+      "id": "crystal_wings",
+      "label": "AILES DU CRISTAL",
+      "description": "Givre, vent et tonnerre dans les hauteurs bleues.",
+      "card_ids": [
+        "saphiriel",
+        "cryopod",
+        "brisalys",
+        "glacephyr",
+        "tonnelyx",
+        "aurelune"
+      ],
+      "reward_essence": 5000,
+      "reward_coins": 2500,
+      "reward_dust": 760
+    },
+    {
+      "id": "glacier_giants",
+      "label": "GÉANTS DU GLACIER",
+      "description": "Armures de glace et gardiens des cathédrales polaires.",
+      "card_ids": [
+        "glacerix",
+        "brumazur",
+        "givrecaille",
+        "perceazur",
+        "nivarok",
+        "glacetan"
+      ],
+      "reward_essence": 5200,
+      "reward_coins": 2600,
+      "reward_dust": 800
+    },
+    {
+      "id": "sky_and_tides",
+      "label": "CIEL ET MARÉES",
+      "description": "Foudre, fleurs et océans suspendus au-dessus des nuages.",
+      "card_ids": [
+        "orcelia",
+        "voltibra",
+        "neretide",
+        "aquaflore",
+        "hurlecristal",
+        "zenithys"
+      ],
+      "reward_essence": 5500,
+      "reward_coins": 2800,
+      "reward_dust": 850
+    },
+    {
+      "id": "thunder_bestiary",
+      "label": "BESTIAIRE DU TONNERRE",
+      "description": "Cornes, griffes et ailes traversées par l’électricité bleue.",
+      "card_ids": [
+        "turquor",
+        "voltarok",
+        "aerolis",
+        "saphiris",
+        "electrame",
+        "voltais"
+      ],
+      "reward_essence": 5800,
+      "reward_coins": 2900,
+      "reward_dust": 900
+    },
+    {
+      "id": "great_blue_pearls",
+      "label": "PERLES DU GRAND BLEU",
+      "description": "Créatures rares des eaux, des cavernes et des nuits froides.",
+      "card_ids": [
+        "manatys",
+        "morphelia",
+        "cavernyx",
+        "glacedon",
+        "ocephine",
+        "lunacor"
+      ],
+      "reward_essence": 6000,
+      "reward_coins": 3000,
+      "reward_dust": 950
+    },
+    {
+      "id": "last_nine_blue",
+      "label": "LES NEUF DERNIERS",
+      "description": "Les dernières forces nécessaires pour achever le rang Rare.",
+      "card_ids": [
+        "glaciom",
+        "voltaconda",
+        "nebulys",
+        "typhonys",
+        "azureon",
+        "luminage"
+      ],
+      "reward_essence": 6500,
+      "reward_coins": 3300,
+      "reward_dust": 1100
+    },
+    {
+      "id": "hundred_rare_crown",
+      "label": "COURONNE DES CENT RARES",
+      "description": "Le dernier sceau bleu du catalogue entièrement complété.",
+      "card_ids": [
+        "iridon",
+        "aqualtis",
+        "briselyx",
+        "cristaloup",
+        "azuryn",
+        "marelys"
+      ],
+      "reward_essence": 10000,
+      "reward_coins": 5000,
+      "reward_dust": 2000
+    },
+    {
+      "id": "first_nebulae",
+      "label": "PREMIÈRES NÉBULEUSES",
+      "description": "Les premières manifestations du pouvoir épique pourpre.",
+      "card_ids": [
+        "astraphenix",
+        "nyxara",
+        "cosmocerf",
+        "eclipson",
+        "nebulion",
+        "oraclys"
+      ],
+      "reward_essence": 12000,
+      "reward_coins": 6000,
+      "reward_dust": 2500
+    },
+    {
+      "id": "purple_dreams",
+      "label": "RÊVES POURPRES",
+      "description": "Songes, forêts et vortex nés sous les lunes violettes.",
+      "card_ids": [
+        "onirys",
+        "mycelune",
+        "vorteria",
+        "prismantis",
+        "noctilux",
+        "nyxara"
+      ],
+      "reward_essence": 14000,
+      "reward_coins": 7000,
+      "reward_dust": 3000
+    },
+    {
+      "id": "void_memories",
+      "label": "MÉMOIRES DU VIDE",
+      "description": "Fragments de temps, d’éclipses et de souvenirs pourpres.",
+      "card_ids": [
+        "abyssara",
+        "chronoryx",
+        "lunaphage",
+        "astralgor",
+        "voidalis",
+        "psycheon"
+      ],
+      "reward_essence": 16000,
+      "reward_coins": 8000,
+      "reward_dust": 3500
+    },
+    {
+      "id": "floating_worlds",
+      "label": "MONDES FLOTTANTS",
+      "description": "Créatures qui portent, traversent ou protègent les îles du ciel.",
+      "card_ids": [
+        "miragelle",
+        "seraphyx",
+        "dendranyx",
+        "graviterra",
+        "noctilux",
+        "cosmocerf"
+      ],
+      "reward_essence": 18000,
+      "reward_coins": 9000,
+      "reward_dust": 4000
+    },
+    {
+      "id": "purple_nexus",
+      "label": "NEXUS POURPRE",
+      "description": "Les forces qui relient les océans, les ruines et les mondes violets.",
+      "card_ids": [
+        "leviathys",
+        "morpherion",
+        "nexara",
+        "solstyra",
+        "cryptelys",
+        "galaxour"
+      ],
+      "reward_essence": 20000,
+      "reward_coins": 10000,
+      "reward_dust": 4500
+    },
+    {
+      "id": "sleep_arcana",
+      "label": "ARCANES DU SOMMEIL",
+      "description": "Rêves profonds, chants stellaires et énergie primordiale.",
+      "card_ids": [
+        "somnifere",
+        "arcanodon",
+        "melodrys",
+        "plasmantor",
+        "noctilux",
+        "psycheon"
+      ],
+      "reward_essence": 22000,
+      "reward_coins": 11000,
+      "reward_dust": 5000
+    },
+    {
+      "id": "titan_twilight",
+      "label": "CRÉPUSCULE DES TITANS",
+      "description": "Géants, oracles et astres au bord de la nuit cosmique.",
+      "card_ids": [
+        "titanebra",
+        "auroracle",
+        "lunakrak",
+        "stellaphin",
+        "obscuryx",
+        "myriadon"
+      ],
+      "reward_essence": 24000,
+      "reward_coins": 12000,
+      "reward_dust": 5500
+    },
+    {
+      "id": "wild_arcana",
+      "label": "ARCANES SAUVAGES",
+      "description": "Créatures indomptées façonnées par la magie pourpre.",
+      "card_ids": [
+        "arcanorys",
+        "cosmanthe",
+        "spectralys",
+        "violethor",
+        "noctilux",
+        "plasmantor"
+      ],
+      "reward_essence": 26000,
+      "reward_coins": 13000,
+      "reward_dust": 6000
+    },
+    {
+      "id": "supernova_echoes",
+      "label": "ÉCHOS DE SUPERNOVA",
+      "description": "Lunes, rêves et flammes nés après l’explosion des étoiles.",
+      "card_ids": [
+        "abysseon",
+        "phantomys",
+        "crystalune",
+        "revara",
+        "infernova",
+        "spiralys"
+      ],
+      "reward_essence": 28000,
+      "reward_coins": 14000,
+      "reward_dust": 6500
+    },
+    {
+      "id": "wild_orbits",
+      "label": "ORBITES SAUVAGES",
+      "description": "Créatures épiques qui courbent les forces du ciel pourpre.",
+      "card_ids": [
+        "celestyx",
+        "orbigon",
+        "magnetara",
+        "floreclipse",
+        "noctilux",
+        "graviterra"
+      ],
+      "reward_essence": 30000,
+      "reward_coins": 15000,
+      "reward_dust": 7000
+    },
+    {
+      "id": "singular_horizons",
+      "label": "HORIZONS SINGULIERS",
+      "description": "Mondes courbés, vents d’éther et nuits aux multiples lunes.",
+      "card_ids": [
+        "singularis",
+        "astrocene",
+        "etherion",
+        "nocthydre",
+        "resonara",
+        "floravide"
+      ],
+      "reward_essence": 32000,
+      "reward_coins": 16000,
+      "reward_dust": 7500
+    },
+    {
+      "id": "gravitational_twilight",
+      "label": "CRÉPUSCULE GRAVITATIONNEL",
+      "description": "Créatures guidées par les lunes et les forces du vide.",
+      "card_ids": [
+        "vesperion",
+        "gravilys",
+        "selenara",
+        "arcanorbe",
+        "noctilux",
+        "chronoryx"
+      ],
+      "reward_essence": 34000,
+      "reward_coins": 17000,
+      "reward_dust": 8000
+    },
+    {
+      "id": "three_moons",
+      "label": "TROIS LUNES",
+      "description": "Gardiens des rivières, météores et pensées du ciel pourpre.",
+      "card_ids": [
+        "trilunys",
+        "astrakoi",
+        "meteoryx",
+        "psionys",
+        "eclatara",
+        "orbitara"
+      ],
+      "reward_essence": 36000,
+      "reward_coins": 18000,
+      "reward_dust": 8500
+    },
+    {
+      "id": "lucid_chimeras",
+      "label": "CHIMÈRES LUCIDES",
+      "description": "Rêves, volcans et créatures composées sous les étoiles.",
+      "card_ids": [
+        "revours",
+        "vulcanova",
+        "luminexa",
+        "chimerys",
+        "noctilux",
+        "nyxara"
+      ],
+      "reward_essence": 38000,
+      "reward_coins": 19000,
+      "reward_dust": 9000
+    },
+    {
+      "id": "living_monoliths",
+      "label": "MONOLITHES VIVANTS",
+      "description": "Pierres, jungles et créatures liées par les forces astrales.",
+      "card_ids": [
+        "monolyth",
+        "sirenara",
+        "eclypsara",
+        "viridanys",
+        "stellarach",
+        "drakorium"
+      ],
+      "reward_essence": 40000,
+      "reward_coins": 20000,
+      "reward_dust": 9500
+    },
+    {
+      "id": "ether_mirrors",
+      "label": "MIROIRS DE L’ÉTHER",
+      "description": "Reflets lunaires, vents du vide et dernières lumières.",
+      "card_ids": [
+        "aetheris",
+        "mirravys",
+        "noctambra",
+        "luxmoria",
+        "noctilux",
+        "singularis"
+      ],
+      "reward_essence": 42000,
+      "reward_coins": 21000,
+      "reward_dust": 10000
+    },
+    {
+      "id": "eclipse_loops",
+      "label": "BOUCLES DE L’ÉCLIPSE",
+      "description": "Temps, ombre et lumière enfermés dans les mêmes orbites.",
+      "card_ids": [
+        "temporax",
+        "abyssorys",
+        "floreon",
+        "pyreclipse",
+        "orbitox",
+        "memoirys"
+      ],
+      "reward_essence": 44000,
+      "reward_coins": 22000,
+      "reward_dust": 10500
+    },
+    {
+      "id": "ninth_nebula",
+      "label": "NEUVIÈME NÉBULEUSE",
+      "description": "Les derniers grands gardiens avant l’achèvement du rang Épique.",
+      "card_ids": [
+        "sombralys",
+        "galactine",
+        "astracorne",
+        "nebulysse",
+        "noctilux",
+        "luxmoria"
+      ],
+      "reward_essence": 46000,
+      "reward_coins": 23000,
+      "reward_dust": 11000
+    },
+    {
+      "id": "zodiac_gates",
+      "label": "PORTES DU ZODIAQUE",
+      "description": "Portails, bonds quantiques et gardiens des constellations prismatiques.",
+      "card_ids": [
+        "zodiacra",
+        "anomalys",
+        "apinova",
+        "kangalys",
+        "okaprisme",
+        "cometalon"
+      ],
+      "reward_essence": 48000,
+      "reward_coins": 24000,
+      "reward_dust": 11500
+    },
+    {
+      "id": "last_horizon",
+      "label": "DERNIER HORIZON",
+      "description": "Les sentinelles qui referment les failles au bord du dernier univers.",
+      "card_ids": [
+        "nephrolys",
+        "echidrys",
+        "omegalys",
+        "noctilux",
+        "temporax",
+        "pyreclipse"
+      ],
+      "reward_essence": 50000,
+      "reward_coins": 25000,
+      "reward_dust": 12000
+    }
+  ]
+}
