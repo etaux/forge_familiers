@@ -1,6 +1,6 @@
 # Game design — activités au-delà de la collection
 
-> État V4 : les missions quotidiennes, les expéditions passives, le recyclage, les habitats et les albums sont maintenant jouables. La maîtrise individuelle, la ferme personnalisable, les événements et les guildes restent sur la feuille de route.
+> État V24 : missions, expéditions avec équipe choisie + séquestre + maîtrise, recyclage, habitats redimensionnés, albums (60), pity, ferme vivante et tutoriel sont jouables. Le marché n’utilise que des jetons de jeu. Restent : événements, guildes, ferme décorable, 188 cartes.
 
 Le jeu doit proposer plusieurs horizons de progression. La caisse reste le plaisir immédiat, mais elle ne doit pas être l’unique raison de revenir.
 
@@ -54,7 +54,7 @@ Exemples :
 - Réaliser une fusion.
 - Envoyer deux expéditions.
 
-Les missions doivent varier et éviter d’exiger une dépense d’argent réel.
+Les missions doivent varier et rester accessibles par le seul jeu (essence, jetons, cartes).
 
 ### 4. Maîtrise individuelle — priorité moyenne
 

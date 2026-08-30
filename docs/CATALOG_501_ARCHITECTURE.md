@@ -10,7 +10,7 @@
 - 1 Ultime
 - Total : 501 cartes
 
-Les cartes existantes sont incluses dans ces nombres. Il reste 436 cartes et illustrations originales à produire, soit environ 44 lots de dix images.
+Les cartes existantes sont incluses dans ces nombres. **313 / 501** sont en catalogue (communes, rares et épiques complets). Il reste **188** cartes : 99 légendaires et 89 uniques, soit environ 19 lots de dix images.
 
 ## Choix artistiques
 
@@ -53,8 +53,8 @@ Avec 501 cartes, la collection utilisera 42 pages au maximum au lieu de créer 5
 
 L’objectif AETERNUM s’adapte automatiquement au nombre d’Uniques.
 
-- Actuellement : 11 Uniques nécessaires.
-- Cible finale : 100 Uniques nécessaires.
+- Actuellement : 11 Uniques nécessaires (AETERNUM).
+- Cible finale : 100 Uniques nécessaires. Le pity Unique (8 000 cartes) doit rester en place avant d’élargir le rang.
 - Les cartes requises sont affichées par pages de 12.
 - Aucune grille de 100 textures n’est créée d’un seul coup.
 
@@ -81,11 +81,11 @@ Les chiffres peuvent varier par rareté, mais chaque carte conserve un identifia
 
 ## Ordre de production
 
-1. Compléter les communes de 50 à 100.
-2. Produire les 99 rares manquantes.
-3. Produire les 99 épiques manquantes.
+1. ~~Communes 100/100~~
+2. ~~Rares 100/100~~
+3. ~~Épiques 100/100~~
 4. Produire les 99 légendaires manquantes.
-5. Produire les 89 Uniques manquantes.
+5. Produire les 89 Uniques manquantes (après validation du pity).
 6. Étendre progressivement les habitats et albums.
 
 L’état chiffré est conservé dans `data/catalog_target.json`.

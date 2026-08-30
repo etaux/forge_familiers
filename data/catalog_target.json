@@ -16,8 +16,8 @@
     },
     "epic": {
       "target": 100,
-      "current": 1,
-      "missing": 99
+      "current": 100,
+      "missing": 0
     },
     "legendary": {
       "target": 100,
@@ -36,11 +36,10 @@
     }
   },
   "production": {
-    "new_cards_required": 287,
-    "estimated_image_batches": 29,
-    "architecture_status": "ready_and_production_started",
+    "new_cards_required": 188,
+    "estimated_image_batches": 19,
+    "architecture_status": "ready_epics_complete",
     "recommended_order": [
-      "epic",
       "legendary",
       "unique"
     ]
