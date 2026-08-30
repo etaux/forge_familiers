@@ -9,6 +9,6 @@
 - Révélation séquentielle avec bouton « Tout révéler ».
 - Ajout de l’onglet Marché.
 - Achat et vente locale en jetons avec séquestre des cartes.
-- Argent réel affiché comme désactivé tant que le serveur et la conformité ne sont pas prêts.
+- Marché local en jetons de jeu.
 - Ajout des documents d’architecture et de game design.
 - Tests automatisés mis à jour pour la V2.

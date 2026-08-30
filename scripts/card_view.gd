@@ -3,6 +3,7 @@ extends Control
 ## Carte visuelle réutilisable dans la collection, les ouvertures et les détails.
 
 signal card_pressed(card: Dictionary)
+signal flipped(card: Dictionary)
 
 const CardFX := preload("res://scripts/card_fx.gd")
 const FontKit := preload("res://scripts/ui_fonts.gd")
@@ -16,6 +17,9 @@ var quantity: int = 0
 var is_locked: bool = false
 var interactive: bool = false
 var show_quantity: bool = true
+var face_down: bool = false
+var _flipping: bool = false
+var _flip_tween: Tween
 
 var _art: TextureRect
 var _dim: ColorRect
@@ -50,6 +54,40 @@ func configure(data: Dictionary, owned_quantity: int = 0, locked: bool = false, 
 	if is_node_ready():
 		_apply_data()
 		queue_redraw()
+
+func set_face_down(value: bool) -> void:
+	face_down = value
+	_flipping = false
+	scale = Vector2.ONE
+	if is_node_ready():
+		_apply_face_visibility()
+		queue_redraw()
+
+func flip_to_front() -> void:
+	if not face_down or _flipping or card_data.is_empty():
+		return
+	_flipping = true
+	if size.x < 2.0:
+		await get_tree().process_frame
+		if not is_instance_valid(self) or not face_down:
+			_flipping = false
+			return
+	pivot_offset = size * 0.5
+	if _flip_tween and _flip_tween.is_running():
+		_flip_tween.kill()
+	_flip_tween = create_tween()
+	_flip_tween.tween_property(self, "scale", Vector2(0.02, 1.0), 0.12).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_IN)
+	_flip_tween.tween_callback(_reveal_front)
+	_flip_tween.tween_property(self, "scale", Vector2.ONE, 0.18).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	_flip_tween.tween_callback(func() -> void: _flipping = false)
+
+func _reveal_front() -> void:
+	if not is_instance_valid(self):
+		return
+	face_down = false
+	_apply_face_visibility()
+	queue_redraw()
+	flipped.emit(card_data)
 
 func set_quantity(value: int, discovered: bool = false) -> void:
 	quantity = value
@@ -141,6 +179,23 @@ func _apply_data() -> void:
 	_number_label.text = "OR-%s" % card_data.number
 	_lock_label.text = "À DÉCOUVRIR" if is_locked else ""
 	_lock_label.visible = is_locked
+	_apply_face_visibility()
+
+func _apply_face_visibility() -> void:
+	if _art == null:
+		return
+	var show_front := not face_down
+	_art.visible = show_front
+	_dim.visible = show_front and is_locked
+	var rarity := str(card_data.get("rarity", "common"))
+	_fx.visible = show_front and (not is_locked or rarity in ["unique", "ultimate"])
+	_rarity_label.visible = show_front
+	_quantity_label.visible = show_front and show_quantity and quantity > 0
+	_name_label.visible = show_front
+	_title_label.visible = show_front
+	_odds_label.visible = show_front
+	_number_label.visible = show_front
+	_lock_label.visible = show_front and is_locked
 
 func _star_string(count: int) -> String:
 	var output := ""
@@ -156,6 +211,7 @@ func _notification(what: int) -> void:
 func _layout_children() -> void:
 	if _art == null:
 		return
+	pivot_offset = size * 0.5
 	var width := size.x
 	var height := size.y
 	var name_size := 22 if width >= 225.0 else 19
@@ -190,6 +246,9 @@ func _layout_children() -> void:
 	_lock_label.size = Vector2(width - padding * 2.0, height * 0.09)
 
 func _draw() -> void:
+	if face_down:
+		_draw_back()
+		return
 	if card_data.is_empty():
 		return
 	var rarity: String = card_data.rarity
@@ -244,12 +303,55 @@ func _box(background: Color, radius: int, border: Color = Color.TRANSPARENT, bor
 		style.border_width_bottom = border_width
 	return style
 
+func _draw_back() -> void:
+	var gold := Color("d4b45a")
+	var violet := Color("8e68e8")
+	draw_style_box(_box(Color(0.0, 0.0, 0.0, 0.48), 22), Rect2(3, 5, size.x - 6, size.y - 6))
+	draw_style_box(_box(Color("140c28"), 21, gold, 3), Rect2(1, 1, size.x - 2, size.y - 2))
+	draw_style_box(_box(Color("0b1028"), 16, Color(violet, 0.88), 1), Rect2(8, 8, size.x - 16, size.y - 16))
+	var inset := Rect2(size.x * 0.11, size.y * 0.10, size.x * 0.78, size.y * 0.80)
+	draw_style_box(_box(Color("181030"), 14, Color(gold, 0.72), 2), inset)
+	var step := 18.0
+	var lattice := inset.grow(-12.0)
+	for row in range(12):
+		for col in range(8):
+			var point := inset.position + Vector2(16.0 + float(col) * step, 18.0 + float(row) * step)
+			if lattice.has_point(point):
+				draw_circle(point, 1.35, Color(gold, 0.22))
+	var center := size * 0.5
+	draw_circle(center, 40.0, Color("241848"))
+	draw_arc(center, 36.0, 0.0, TAU, 42, Color(gold, 0.88), 2.2)
+	draw_arc(center, 28.0, 0.0, TAU, 36, Color(violet, 0.55), 1.4)
+	var gem := PackedVector2Array([
+		center + Vector2(0, -22),
+		center + Vector2(20, 0),
+		center + Vector2(0, 22),
+		center + Vector2(-20, 0)
+	])
+	draw_colored_polygon(gem, Color("765cff"))
+	draw_polyline(PackedVector2Array([gem[0], gem[1], gem[2], gem[3], gem[0]]), Color("e5d6ff"), 2.0, true)
+	if _font_bold:
+		var label_width := size.x * 0.72
+		var label_x := (size.x - label_width) * 0.5
+		draw_string(_font_bold, Vector2(label_x, size.y * 0.78), "ORIGINE", HORIZONTAL_ALIGNMENT_CENTER, label_width, 15, Color("f2edff"))
+
 func _gui_input(event: InputEvent) -> void:
-	if not interactive or card_data.is_empty():
+	if not interactive or _flipping:
 		return
-	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
-		card_pressed.emit(card_data)
+	var is_press := false
+	if event is InputEventMouseButton:
+		var mouse := event as InputEventMouseButton
+		is_press = mouse.button_index == MOUSE_BUTTON_LEFT and mouse.pressed
+	elif event is InputEventScreenTouch:
+		var touch := event as InputEventScreenTouch
+		is_press = touch.pressed
+	if not is_press:
+		return
+	if face_down:
+		flip_to_front()
 		accept_event()
-	elif event is InputEventScreenTouch and event.pressed:
-		card_pressed.emit(card_data)
-		accept_event()
+		return
+	if card_data.is_empty():
+		return
+	card_pressed.emit(card_data)
+	accept_event()

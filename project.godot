@@ -10,15 +10,21 @@ config_version=5
 
 [application]
 
-config/name="Forge des Familiers"
+config/name="Forge des Familiers — Bêta"
 run/main_scene="res://scenes/main.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="ForgeDesFamiliers"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.0313726, 0.0392157, 0.0901961, 1)
+boot_splash/image="res://assets/store/boot_splash.png"
 config/icon="res://icon.svg"
 
 [autoload]
 
 CardDatabase="*res://scripts/card_database.gd"
 GameState="*res://scripts/game_state.gd"
+AudioManager="*res://scripts/audio_manager.gd"
+Loc="*res://scripts/locale.gd"
 
 [display]
 

@@ -9,11 +9,12 @@ const RARITY_ORDER: Array[String] = [
 ]
 
 # Coût en exemplaires IDENTIQUES pour produire une carte aléatoire du rang suivant.
+# V24 : les anciens seuils 500 / 1 000 / 10 000 rendaient la fusion haute morte.
 const FUSION_COSTS := {
 	"common": 10,
-	"rare": 500,
-	"epic": 1000,
-	"legendary": 10000
+	"rare": 10,
+	"epic": 8,
+	"legendary": 5
 }
 
 const RARITIES := {
@@ -223,17 +224,36 @@ func get_next_rarity(rarity: String) -> String:
 func get_fusion_cost(rarity: String) -> int:
 	return int(FUSION_COSTS.get(rarity, 0))
 
-func roll_rarity(rng: RandomNumberGenerator) -> String:
-	# Tirage exclusif : 0,01 % + 0,1 % + 0,5 % + 10 % ;
-	# la commune reçoit le reste, soit exactement 89,39 %.
+func get_rarity_chances(luck_level: int = 0) -> Dictionary:
+	var luck := clampi(luck_level, 0, 8)
+	var unique_p := 0.0001 + 0.00002 * float(luck)
+	var legendary_p := 0.001 + 0.0001 * float(luck)
+	var epic_p := 0.005 + 0.0004 * float(luck)
+	var rare_p := 0.10 + 0.004 * float(luck)
+	return {
+		"unique": unique_p,
+		"legendary": legendary_p,
+		"epic": epic_p,
+		"rare": rare_p,
+		"common": 1.0 - unique_p - legendary_p - epic_p - rare_p
+	}
+
+func roll_rarity(rng: RandomNumberGenerator, luck_level: int = 0) -> String:
+	# Tirage exclusif : unique / légendaire / épique / rare ;
+	# la commune reçoit le reste. La fortune n’augmente que légèrement les rangs hauts.
+	var chances := get_rarity_chances(luck_level)
 	var roll := rng.randf()
-	if roll < 0.0001:
+	var acc := float(chances.unique)
+	if roll < acc:
 		return "unique"
-	if roll < 0.0011:
+	acc += float(chances.legendary)
+	if roll < acc:
 		return "legendary"
-	if roll < 0.0061:
+	acc += float(chances.epic)
+	if roll < acc:
 		return "epic"
-	if roll < 0.1061:
+	acc += float(chances.rare)
+	if roll < acc:
 		return "rare"
 	return "common"
 

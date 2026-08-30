@@ -1,33 +1,59 @@
-# Gradle files
-.gradle/
+# Godot 4
+.godot/
+*.uid
+*.translation
+
+# Imports generated locally
+*.import.bak
+
+# Builds & exports
 build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
+dist/
 *.apk
-output.json
+*.aab
+*.ipa
+*.zip
+*.tar.gz
 
-# IntelliJ
+# Android / Gradle
+.gradle/
+local.properties
 *.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
+.cxx/
+.externalNativeBuild/
+captures/
 *.hprof
+
+# Secrets
+*.keystore
+*.jks
+*.p12
+google-services.json
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+*.log
+.vscode/
+.vs/
+
+# Python backend
+backend/.venv/
+backend/__pycache__/
+backend/*.db
+backend/*.sqlite
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Godot Android dump
+android/build/
+android/.gradle/
